@@ -1,0 +1,264 @@
+[
+  {
+    "id": "quaest-sp-gov-20260929",
+    "office": "GOVERNADOR",
+    "institute": "Quaest",
+    "published": "2026-09-29",
+    "field": "25 a 28/09/2026",
+    "sample": 1800,
+    "margin": 2,
+    "confidence": 95,
+    "region": "Estado de São Paulo",
+    "method": "Presencial · estimulada · votos totais",
+    "sponsor": "TV Globo",
+    "registration": "SP-01590/2026",
+    "source": "https://noticias.uol.com.br/eleicoes/2026/09/29/quaest-sp-governo-e-senado.amp.htm",
+    "primary": "https://quaest.com.br/relatorios/pesquisa-de-intencao-de-voto-sao-paulo-rodada-4-29-09-2026/",
+    "note": "Percentuais publicados, sem redistribuir indecisos ou votos brancos/nulos.",
+    "results": [
+      [
+        "Tarcísio",
+        "10",
+        44
+      ],
+      [
+        "Fernando Haddad",
+        "13",
+        24
+      ],
+      [
+        "Carlos Machado",
+        "21",
+        1
+      ],
+      [
+        "Vera Lúcia",
+        "16",
+        1
+      ],
+      [
+        "Izadora Dias",
+        "29",
+        1
+      ],
+      [
+        "Vivian Mendes",
+        "80",
+        1
+      ],
+      [
+        "Policial Edjane",
+        "36",
+        0
+      ],
+      [
+        "Indecisos",
+        null,
+        16
+      ],
+      [
+        "Brancos / nulos",
+        null,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "quaest-sp-sen-20260929",
+    "office": "SENADOR",
+    "institute": "Quaest",
+    "published": "2026-09-29",
+    "field": "25 a 28/09/2026",
+    "sample": 1800,
+    "margin": 2,
+    "confidence": 95,
+    "region": "Estado de São Paulo",
+    "method": "Presencial · estimulada · duas menções normalizadas para 100%",
+    "sponsor": "TV Globo",
+    "registration": "SP-01590/2026",
+    "source": "https://noticias.uol.com.br/eleicoes/2026/09/29/quaest-sp-governo-e-senado.amp.htm",
+    "primary": "https://quaest.com.br/relatorios/pesquisa-de-intencao-de-voto-sao-paulo-rodada-4-29-09-2026/",
+    "note": "Os percentuais combinam as duas escolhas e somam 100%. Salles permanece no levantamento histórico; a fonte informa desistência em 28/09. Consulte a situação atual na lista.",
+    "results": [
+      [
+        "Guilherme Derrite",
+        "111",
+        18
+      ],
+      [
+        "Marina Silva",
+        "180",
+        15
+      ],
+      [
+        "Simone Tebet",
+        "400",
+        15
+      ],
+      [
+        "André do Prado",
+        "222",
+        12
+      ],
+      [
+        "Ricardo Salles",
+        "300",
+        3
+      ],
+      [
+        "Soninha Francine",
+        "232",
+        1
+      ],
+      [
+        "Geraldo Rufino",
+        "200",
+        1
+      ],
+      [
+        "Maíra de Souza",
+        "808",
+        1
+      ],
+      [
+        "Dra. Eliana Ferreira",
+        "161",
+        1
+      ],
+      [
+        "Guto Schiavetto",
+        "144",
+        1
+      ],
+      [
+        "Marcio Alves",
+        "800",
+        1
+      ],
+      [
+        "William Teixeira",
+        "360",
+        0
+      ],
+      [
+        "Petter Maahs",
+        "211",
+        0
+      ],
+      [
+        "Weller Gonçalves",
+        "160",
+        0
+      ],
+      [
+        "Ednelson Cesaretti",
+        "290",
+        0
+      ],
+      [
+        "Indecisos",
+        null,
+        15
+      ],
+      [
+        "Brancos / nulos",
+        null,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "quaest-br-20260928",
+    "office": "PRESIDENTE",
+    "institute": "Quaest",
+    "published": "2026-09-28",
+    "field": "24 a 27/09/2026",
+    "sample": 2004,
+    "margin": 2,
+    "confidence": 95,
+    "region": "Brasil",
+    "method": "Presencial · estimulada · votos totais",
+    "sponsor": "TV Globo e O Globo",
+    "registration": "BR-06520/2026",
+    "source": "https://noticias.uol.com.br/eleicoes/2026/09/28/quaest-pesquisa-presidencial.ghtm",
+    "primary": "https://quaest.com.br/relatorios/pesquisa-de-intencao-de-voto-para-presidente-rodada-6-28-09-2026/",
+    "note": "Pesquisa nacional, não um recorte de SP. Candidatos que não pontuaram aparecem com 0%, conforme a publicação.",
+    "results": [
+      [
+        "Lula",
+        "13",
+        39
+      ],
+      [
+        "Flávio Bolsonaro",
+        "22",
+        34
+      ],
+      [
+        "Escritor Augusto Cury",
+        "70",
+        4
+      ],
+      [
+        "Ronaldo Caiado",
+        "55",
+        4
+      ],
+      [
+        "Renan Santos",
+        "14",
+        3
+      ],
+      [
+        "Romeu Zema",
+        "30",
+        1
+      ],
+      [
+        "Clariana Barão",
+        "27",
+        0
+      ],
+      [
+        "Edmilson Costa",
+        "21",
+        0
+      ],
+      [
+        "Hertz Dias",
+        "16",
+        0
+      ],
+      [
+        "Leonardo Avalanche",
+        "28",
+        0
+      ],
+      [
+        "Rui Costa Pimenta",
+        "29",
+        0
+      ],
+      [
+        "Samara Martins",
+        "80",
+        0
+      ],
+      [
+        "Veterinário Wilson Grassi",
+        "35",
+        0
+      ],
+      [
+        "Indecisos",
+        null,
+        5
+      ],
+      [
+        "Branco / nulo / não vai votar",
+        null,
+        10
+      ]
+    ]
+  }
+]
