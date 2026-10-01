@@ -4,7 +4,7 @@ Abra `index.html` ou `Abrir painel.cmd` com dois cliques. O painel funciona sem 
 
 ## Usar
 
-1. Escolha um cargo e consulte o levantamento disponível.
+1. Escolha o estado (SP, DF, RJ, MG ou RS) e depois o cargo. A Presidência é a mesma em todos. No Distrito Federal, o segundo cargo é deputado distrital.
 2. Busque nome ou número e filtre por partido. O filtro inicial mostra os registros que constam na urna. “Todos os registros” também inclui renúncias e indeferimentos.
 3. Clique em Escolher para preencher a colinha. No Senado, escolha a primeira ou a segunda vaga; o sistema impede repetir o candidato.
 4. Imprima a colinha ou escolha Salvar como PDF na janela de impressão. O modelo impresso tem cerca de 9,5 cm de largura e segue a ordem dos cargos do TSE. Se o navegador interno não abrir a impressão, use “Baixar colinha para imprimir”, abra o HTML baixado no Edge/Chrome/Firefox e imprima lá. Esse HTML é independente e funciona offline.
@@ -15,9 +15,9 @@ O treino é simplificado: não reproduz todas as regras da urna oficial, não im
 
 ## Dados
 
-- `Lista de candidatos.md`: nome, partido, número e situação de todos os 2.600 registros encontrados para os cargos relevantes.
+- `Lista de candidatos.md`: nome, partido, número e situação dos 8.040 registros de SP, DF, RJ, MG, RS e da Presidência.
 - `candidatos.json`: dados mínimos das candidaturas, procedência e hashes dos arquivos originais.
-- `pesquisas.json`: três cenários de primeiro turno, de dois levantamentos Quaest; governo e Senado de SP (29/09), Presidência nacional (28/09).
+- `pesquisas.json`: três cenários de primeiro turno, de dois levantamentos Quaest; governo e Senado de SP (29/09), Presidência nacional (28/09). Governo e Senado só aparecem com São Paulo selecionado.
 - `dados.js` e `pesquisas.js`: cópias utilizadas pelo painel para funcionar mesmo aberto diretamente como arquivo.
 - `candidatos-tse.zip` e `situacoes-tse.zip`: arquivos oficiais originais para auditoria. Não são necessários para abrir o painel. Contêm registros nacionais e documentação do TSE; apenas o recorte necessário foi incluído no JSON.
 - `preparar_dados.py`: reconstrói o JSON, JavaScript e Markdown a partir dos dois ZIPs locais. Usa apenas a biblioteca padrão do Python.
@@ -30,7 +30,7 @@ As propostas disponíveis no catálogo do TSE estavam em PDF. Não baixamos paco
 
 ## Local de votação
 
-O recorte estadual é SP tanto para a capital quanto para São José dos Campos. O endereço onde você reside não altera sua seção automaticamente. Consulte o local cadastrado no TSE, inclusive se houve transferência temporária. O painel não consulta nem armazena seu número de título.
+O seletor de estado define deputado federal, deputado estadual (distrital no DF), senador e governador. A Presidência permanece nacional. O recorte vale para toda a unidade da federação: em SP, é o mesmo para a capital e para São José dos Campos. O endereço onde você reside não altera sua seção automaticamente. Consulte o local cadastrado no TSE, inclusive se houve transferência temporária. O painel não consulta nem armazena seu número de título. Ao trocar de estado, escolhas estaduais de outra unidade saem da colinha.
 
 ## Fontes
 
