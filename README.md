@@ -1,4 +1,4 @@
-# Meu voto — 1º Turno 2026
+# Meu voto — Eleições 2026
 
 Abra `index.html` ou `Abrir painel.cmd` com dois cliques. O painel funciona sem instalação e sem internet; os links de fontes precisam de conexão. Mantenha os arquivos desta pasta juntos.
 
@@ -6,17 +6,21 @@ Abra `index.html` ou `Abrir painel.cmd` com dois cliques. O painel funciona sem 
 
 [https://arrudadfa.github.io/eleicoes-2026/](https://arrudadfa.github.io/eleicoes-2026/)
 
-O 2º turno, em 25 de outubro de 2026, fica em [https://arrudadfa.github.io/eleicoes-2026/2_turno/](https://arrudadfa.github.io/eleicoes-2026/2_turno/). A colinha pede governador e presidente. Os estados são Acre, Amazonas, Tocantins, Rio Grande do Norte, Distrito Federal, Espírito Santo e Rio de Janeiro. A Presidência é entre Flávio Bolsonaro e Lula. As escolhas ficam numa chave separada do navegador. O arquivo oficial consultado em 10/10/2026 às 15:09 já registra Douglas Ruas como eleito no 1º turno do Rio de Janeiro; os dois nomes continuam na lista, com essa situação visível.
+A página inicial é o 2º turno, em 25 de outubro de 2026. A colinha pede governador e presidente. Os estados são Acre, Amazonas, Tocantins, Rio Grande do Norte, Distrito Federal, Espírito Santo e Rio de Janeiro, escolhidos no mapa. A Presidência é entre Flávio Bolsonaro e Lula. As escolhas ficam numa chave separada do navegador. O arquivo oficial consultado em 10/10/2026 às 15:09 já registra Douglas Ruas como eleito no 1º turno do Rio de Janeiro; os dois nomes continuam na lista, com essa situação visível.
+
+O 1º turno, já encerrado, fica em [https://arrudadfa.github.io/eleicoes-2026/1_turno/](https://arrudadfa.github.io/eleicoes-2026/1_turno/) e também no botão “1º turno” do topo. O endereço antigo `/2_turno/` apenas redireciona para a página inicial.
 
 ## Resultado
 
-A primeira tela mostra o resultado oficial do 1º turno, por estado e cargo, com votos, percentual e situação. A situação é o texto do TSE: eleito, eleito por quociente partidário, eleito por média, suplente, 2º turno ou não eleito. A apuração usada aqui está encerrada; os arquivos foram gerados em 05/10/2026.
+Na página do 1º turno, a primeira tela mostra o resultado oficial, por estado e cargo, com votos, percentual e situação. A situação é o texto do TSE: eleito, eleito por quociente partidário, eleito por média, suplente, 2º turno ou não eleito. A apuração usada aqui está encerrada; os arquivos foram gerados em 05/10/2026.
 
 Na lista, no diálogo de escolha e na colinha, cada candidato escolhido mostra os votos nominais do seu recorte (o estado, ou o Brasil na Presidência) e a situação. Quem não aparece no arquivo oficial fica sem número de votos. Isso não significa zero.
 
 Para ver o boletim da sua urna, abra Consultar BU, escolha a cidade e depois a zona e a seção nas listas. O índice cobre SP, DF, RJ, MG e RS. O painel localiza o município no índice já salvo e, com internet, lê o arquivo oficial daquela urna. A seção agregada abre o boletim da seção principal. A zona e a seção ficam neste navegador. O título de eleitor não é pedido nem guardado. O boletim não fica gravado na pasta.
 
 ## Usar
+
+Na página do 1º turno:
 
 1. Escolha o estado (SP, DF, RJ, MG ou RS) e depois o cargo. A Presidência é a mesma em todos. No Distrito Federal, o segundo cargo é deputado distrital.
 2. Busque nome ou número e filtre por partido. O filtro inicial mostra os registros que constam na urna. “Todos os registros” também inclui renúncias e indeferimentos.
