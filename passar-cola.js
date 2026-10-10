@@ -163,16 +163,16 @@ function drawParty(ctx, party, centerX, y, symbol, pal, labelWidth){
   ctx.strokeStyle = 'rgba(28,25,21,.14)';
   traceRound(ctx, x, y, symbol, symbol, radius);
   ctx.stroke();
-  let fontSize = 15;
+  let fontSize = Math.max(15, Math.round(symbol * 0.18));
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   ctx.fillStyle = pal.ink;
-  while (fontSize > 10) {
+  while (fontSize > 12) {
     ctx.font = font(700, fontSize);
     if (ctx.measureText(party).width <= labelWidth) break;
     fontSize -= 1;
   }
-  ctx.fillText(party, centerX, y + symbol + 8 + fontSize / 2);
+  ctx.fillText(party, centerX, y + symbol + Math.round(symbol * 0.08) + fontSize / 2);
 }
 function drawHeader(ctx, width, pal, format, place){
   const pad = 52;
@@ -260,7 +260,82 @@ function drawRow(ctx, row, x, y, width, height, pal){
     ctx.fillText(fitText(ctx, 'Suplente  ·  ' + row.suplente.name, textW), textX, cursor + 24);
   }
 }
+function paintSolo(ctx, width, height, options, row, place){
+  const pal = PALETTES[options.palette];
+  const story = options.format === 'story';
+  ctx.clearRect(0, 0, width, height);
+  ctx.fillStyle = pal.bg;
+  ctx.fillRect(0, 0, width, height);
+  drawHeader(ctx, width, pal, options.format, place);
+  const headerBottom = story ? 168 : 144;
+  const footerTop = height - (story ? 78 : 64);
+  const contentTop = headerBottom + (story ? 8 : 4);
+  const contentH = footerTop - contentTop;
+  const topH = Math.round(contentH * 0.5);
+  const midH = Math.round(contentH * 0.2);
+  const botH = contentH - topH - midH;
+  const labelSize = story ? 28 : 18;
+  let nameSize = story ? 92 : 56;
+  ctx.font = font(800, nameSize);
+  while (nameSize > 34 && ctx.measureText(row.name).width > width - 100) {
+    nameSize -= 2;
+    ctx.font = font(800, nameSize);
+  }
+  const viceSize = row.vice ? (story ? 32 : 22) : 0;
+  const nameBlock = nameSize + (viceSize ? viceSize + 18 : 0);
+  const photo = Math.round(Math.min(story ? 640 : 360, Math.max(140, topH - labelSize - nameBlock - (story ? 44 : 28))));
+  const stack = labelSize + 12 + photo + 16 + nameBlock;
+  let y = contentTop + Math.max(0, (topH - stack) / 2);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillStyle = pal.muted;
+  ctx.font = font(700, labelSize);
+  ctx.fillText(row.label, width / 2, y + labelSize / 2);
+  y += labelSize + 12;
+  drawFace(ctx, cachedPhoto(row.id), (width - photo) / 2, y, photo, row.name, pal);
+  y += photo + 16;
+  ctx.fillStyle = pal.ink;
+  ctx.font = font(800, nameSize);
+  ctx.fillText(row.name, width / 2, y + nameSize / 2);
+  if (row.vice) {
+    ctx.fillStyle = pal.muted;
+    ctx.font = font(600, viceSize);
+    ctx.fillText(fitText(ctx, 'Vice  ·  ' + row.vice.name, width - 160), width / 2, y + nameSize + 10 + viceSize / 2);
+  }
+  const boxH = Math.round(Math.min(story ? 320 : 180, midH - (story ? 8 : 6)));
+  const box = Math.round(boxH / 1.12);
+  const gap = story ? 32 : 16;
+  const total = row.digits * box + (row.digits - 1) * gap;
+  let boxX = (width - total) / 2;
+  const boxY = contentTop + topH + (midH - boxH) / 2;
+  for (let index = 0; index < row.digits; index++) {
+    traceRound(ctx, boxX, boxY, box, boxH, story ? 22 : 14);
+    ctx.fillStyle = pal.digitBg;
+    ctx.fill();
+    ctx.lineWidth = story ? 4 : 3;
+    ctx.strokeStyle = pal.line;
+    ctx.stroke();
+    ctx.fillStyle = pal.digitInk;
+    ctx.font = font(800, Math.round(box * 0.64));
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(row.number[index] || '', boxX + box / 2, boxY + boxH / 2 + 2);
+    boxX += box + gap;
+  }
+  const symbol = Math.round(Math.min(story ? 360 : 210, Math.max(110, botH - (story ? 96 : 64))));
+  const symbolY = contentTop + topH + midH + Math.max(0, (botH - symbol - Math.round(symbol * 0.3)) / 2);
+  if (row.party) drawParty(ctx, row.party, width / 2, symbolY, symbol, pal, Math.min(560, width - 140));
+  ctx.fillStyle = pal.muted;
+  ctx.font = font(400, 20);
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('Material pessoal  ·  sem vínculo com o TSE', width / 2, height - 32);
+}
 function paintCard(ctx, width, height, options, rows, place){
+  if (rows.length === 1) {
+    paintSolo(ctx, width, height, options, rows[0], place);
+    return;
+  }
   const pal = PALETTES[options.palette];
   ctx.clearRect(0, 0, width, height);
   ctx.fillStyle = pal.bg;
