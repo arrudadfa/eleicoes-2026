@@ -58,15 +58,18 @@ function loadCached(cache, key, url){
   image.src = url;
   return pending;
 }
+function asset(path){
+  return (window.ASSET_ROOT || '') + path;
+}
 function loadPhoto(id){
-  return loadCached(photoCache, id, `fotos/${id}.jpg`);
+  return loadCached(photoCache, id, asset(`fotos/${id}.jpg`));
 }
 function cachedPhoto(id){
   const hit = photoCache.get(id);
   return hit instanceof HTMLImageElement && hit.naturalWidth ? hit : null;
 }
 function loadParty(party){
-  return loadCached(partyCache, party, `partidos/${partySlug(party)}.jpg`);
+  return loadCached(partyCache, party, asset(`partidos/${partySlug(party)}.jpg`));
 }
 function cachedParty(party){
   const hit = partyCache.get(party);
@@ -87,7 +90,7 @@ function shareRows(options){
       vice: null,
       suplente: null
     };
-    if (options.vice && candidate && candidate.vice && (index === 4 || index === 5)) row.vice = candidate.vice;
+    if (options.vice && candidate && candidate.vice && (slot[0] === 'GOVERNADOR' || slot[0] === 'PRESIDENTE')) row.vice = candidate.vice;
     if (options.suplente && candidate && candidate.substitutes && candidate.substitutes[0] && (index === 2 || index === 3)) row.suplente = candidate.substitutes[0];
     return row;
   });
@@ -307,7 +310,8 @@ async function refreshShare(){
   ctx.imageSmoothingQuality = 'high';
   paintCard(ctx, size.width, size.height, share, rows);
   const format = share.format === 'story' ? 'STORY · 9:16' : 'POST · 4:5';
-  qs('#share-caption').textContent = `${format} · ${PALETTES[share.palette].label.toUpperCase()} · ${share.vice ? 'COM VICE' : 'SEM VICE'} · ${share.suplente ? 'COM SUPLENTE' : 'SEM SUPLENTE'} · ${size.width} × ${size.height}`;
+  const suplenteCaption = qs('#share-suplente') ? ` · ${share.suplente ? 'COM SUPLENTE' : 'SEM SUPLENTE'}` : '';
+  qs('#share-caption').textContent = `${format} · ${PALETTES[share.palette].label.toUpperCase()} · ${share.vice ? 'COM VICE' : 'SEM VICE'}${suplenteCaption} · ${size.width} × ${size.height}`;
 }
 window.refreshSharePreview = refreshShare;
 function canvasBlob(canvas){
@@ -327,7 +331,7 @@ function colinhaMessage(){
     const candidate = byId.get(picked);
     const who = candidate ? `${candidate.number} ${candidate.name}` : picked === 'BRANCO' ? 'branco' : picked === 'NULO' ? 'nulo' : 'ainda não escolhido';
     let line = `${slotLabel(index)}: ${who}`;
-    if (share.vice && candidate && candidate.vice && (index === 4 || index === 5)) line += ` · vice ${candidate.vice.name}`;
+    if (share.vice && candidate && candidate.vice && (slot[0] === 'GOVERNADOR' || slot[0] === 'PRESIDENTE')) line += ` · vice ${candidate.vice.name}`;
     if (share.suplente && candidate && candidate.substitutes && candidate.substitutes[0] && (index === 2 || index === 3)) line += ` · suplente ${candidate.substitutes[0].name}`;
     return line;
   });
@@ -365,8 +369,9 @@ function timeline(){
   const fade = 3;
   const intro = 3;
   const ending = 4;
-  const step = (total - intro - ending) / 6;
-  return {intro, step, votesEnd: intro + step * 6, total, fade};
+  const count = painel().slots.length;
+  const step = (total - intro - ending) / count;
+  return {intro, step, votesEnd: intro + step * count, total, fade};
 }
 function drawKey(ctx, x, y, w, h, label, fill, ink, size){
   traceRound(ctx, x, y, w, h, 16);
@@ -500,7 +505,7 @@ function drawUrna(ctx, time, clock, options, rows, place){
     if (time < clock.intro) drawIntro(ctx, place);
     else {
       const elapsed = time - clock.intro;
-      const index = Math.min(5, Math.floor(elapsed / clock.step));
+      const index = Math.min(rows.length - 1, Math.floor(elapsed / clock.step));
       const progress = (elapsed - index * clock.step) / clock.step;
       confirming = drawVoteScreen(ctx, index, progress, rows);
     }
@@ -525,7 +530,7 @@ function recordUrna(options, onProgress){
   canvas.height = 1920;
   const ctx = canvas.getContext('2d');
   ctx.imageSmoothingQuality = 'high';
-  const audio = new Audio('mundo_eleitoral_jingles2026_jingle_tropa_do_capitao_de_flavio_bo.m4a');
+  const audio = new Audio(asset('mundo_eleitoral_jingles2026_jingle_tropa_do_capitao_de_flavio_bo.m4a'));
   audio.preload = 'auto';
   return new Promise((resolve, reject) => {
     const fail = error => reject(error instanceof Error ? error : new Error('Não foi possível gravar o vídeo.'));
@@ -652,7 +657,8 @@ function renderControls(){
   chipButtons(qs('#share-colors'), Object.values(PALETTES).map(pal => ({id:pal.id, label:pal.label, swatch:`<i class="color-dot" style="background:${pal.bg}"></i>`})), share.palette, id => { share.palette = id; renderControls(); refreshShare(); });
   chipButtons(qs('#share-formats'), [{id:'post', label:'Post'}, {id:'story', label:'Story'}], share.format, id => { share.format = id; renderControls(); refreshShare(); });
   chipButtons(qs('#share-vice'), [{id:'off', label:'Sem vice'}, {id:'on', label:'Com vice'}], share.vice ? 'on' : 'off', id => { share.vice = id === 'on'; renderControls(); refreshShare(); });
-  chipButtons(qs('#share-suplente'), [{id:'off', label:'Sem suplente'}, {id:'on', label:'Com suplente'}], share.suplente ? 'on' : 'off', id => { share.suplente = id === 'on'; renderControls(); refreshShare(); });
+  const suplenteBox = qs('#share-suplente');
+  if (suplenteBox) chipButtons(suplenteBox, [{id:'off', label:'Sem suplente'}, {id:'on', label:'Com suplente'}], share.suplente ? 'on' : 'off', id => { share.suplente = id === 'on'; renderControls(); refreshShare(); });
 }
 function openShare(){
   const dialog = qs('#share-dialog');
