@@ -2,6 +2,14 @@
 
 Abra `index.html` ou `Abrir painel.cmd` com dois cliques. O painel funciona sem instalação e sem internet; os links de fontes precisam de conexão. Mantenha os arquivos desta pasta juntos.
 
+## Resultado
+
+A primeira tela mostra o resultado oficial do 1º turno, por estado e cargo, com votos, percentual e situação. A situação é o texto do TSE: eleito, eleito por quociente partidário, eleito por média, suplente, 2º turno ou não eleito. A apuração usada aqui está encerrada; os arquivos foram gerados em 05/10/2026.
+
+Na lista, no diálogo de escolha e na colinha, cada candidato escolhido mostra os votos nominais do seu recorte (o estado, ou o Brasil na Presidência) e a situação. Quem não aparece no arquivo oficial fica sem número de votos. Isso não significa zero.
+
+Para ver o boletim da sua urna, abra o bloco do local e informe a zona e a seção. O painel localiza o município no índice já salvo e, com internet, lê o arquivo oficial daquela urna. A seção agregada abre o boletim da seção principal. A zona e a seção ficam neste navegador. O título de eleitor não é pedido nem guardado. O boletim não fica gravado na pasta.
+
 ## Usar
 
 1. Escolha o estado (SP, DF, RJ, MG ou RS) e depois o cargo. A Presidência é a mesma em todos. No Distrito Federal, o segundo cargo é deputado distrital.
@@ -19,6 +27,8 @@ O treino é simplificado: não reproduz todas as regras da urna oficial, não im
 - `candidatos.json`: dados mínimos das candidaturas, procedência e hashes dos arquivos originais.
 - `pesquisas.json`: três cenários de primeiro turno, de dois levantamentos Quaest; governo e Senado de SP (29/09), Presidência nacional (28/09). Governo e Senado só aparecem com São Paulo selecionado.
 - `dados.js` e `pesquisas.js`: cópias utilizadas pelo painel para funcionar mesmo aberto diretamente como arquivo.
+- `resultados.js`: votos e situação do 1º turno, gerados por `preparar_resultados.py` a partir da divulgação oficial.
+- `secoes.js`: índice de zona e seção de SP, DF, RJ, MG e RS, para localizar o boletim. O arquivo da urna em si é lido na hora.
 - `candidatos-tse.zip` e `situacoes-tse.zip`: arquivos oficiais originais para auditoria. Não são necessários para abrir o painel. Contêm registros nacionais e documentação do TSE; apenas o recorte necessário foi incluído no JSON.
 - `preparar_dados.py`: reconstrói o JSON, JavaScript e Markdown a partir dos dois ZIPs locais. Usa apenas a biblioteca padrão do Python.
 
@@ -35,6 +45,7 @@ O seletor de estado define deputado federal, deputado estadual (distrital no DF)
 ## Fontes
 
 - https://dadosabertos.tse.jus.br/dataset/candidatos-2026
+- https://resultados.tse.jus.br/oficial/ele2026/
 - https://www.tse.jus.br/eleicoes/simulador-de-votacao
 - https://www.tse.jus.br/comunicacao/noticias/2026/Marco/eleicoes-2026-conheca-a-ordem-de-votacao-na-urna-eletronica
 - https://noticias.uol.com.br/eleicoes/2026/09/29/quaest-sp-governo-e-senado.amp.htm
