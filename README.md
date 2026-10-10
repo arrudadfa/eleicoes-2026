@@ -8,7 +8,7 @@ A primeira tela mostra o resultado oficial do 1º turno, por estado e cargo, com
 
 Na lista, no diálogo de escolha e na colinha, cada candidato escolhido mostra os votos nominais do seu recorte (o estado, ou o Brasil na Presidência) e a situação. Quem não aparece no arquivo oficial fica sem número de votos. Isso não significa zero.
 
-Para ver o boletim da sua urna, abra o bloco do local e informe a zona e a seção. O painel localiza o município no índice já salvo e, com internet, lê o arquivo oficial daquela urna. A seção agregada abre o boletim da seção principal. A zona e a seção ficam neste navegador. O título de eleitor não é pedido nem guardado. O boletim não fica gravado na pasta.
+Para ver o boletim da sua urna, abra Consultar BU e informe a zona e a seção. O painel localiza o município no índice já salvo e, com internet, lê o arquivo oficial daquela urna. A seção agregada abre o boletim da seção principal. A zona e a seção ficam neste navegador. O título de eleitor não é pedido nem guardado. O boletim não fica gravado na pasta.
 
 ## Usar
 
