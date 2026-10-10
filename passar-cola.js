@@ -41,41 +41,36 @@ function traceRound(ctx, x, y, w, h, r){
   ctx.arcTo(x, y, x + w, y, radius);
   ctx.closePath();
 }
-function loadPhoto(id){
-  if (!id) return Promise.resolve(null);
-  const hit = photoCache.get(id);
-  if (hit && typeof hit.then !== 'function') return Promise.resolve(hit);
+function loadCached(cache, key, url){
+  if (!key) return Promise.resolve(null);
+  const hit = cache.get(key);
+  if (hit instanceof HTMLImageElement) return Promise.resolve(hit.naturalWidth ? hit : null);
   if (hit) return hit;
+  const image = new Image();
   const pending = new Promise(resolve => {
-    const image = new Image();
-    image.onload = () => { photoCache.set(id, image); resolve(image); };
-    image.onerror = () => { photoCache.set(id, null); resolve(null); };
-    image.src = `fotos/${id}.jpg`;
+    image.onload = () => {
+      if (image.naturalWidth) { cache.set(key, image); resolve(image); }
+      else { cache.delete(key); resolve(null); }
+    };
+    image.onerror = () => { cache.delete(key); resolve(null); };
   });
-  photoCache.set(id, pending);
+  cache.set(key, pending);
+  image.src = url;
   return pending;
+}
+function loadPhoto(id){
+  return loadCached(photoCache, id, `fotos/${id}.jpg`);
 }
 function cachedPhoto(id){
   const hit = photoCache.get(id);
-  return hit && typeof hit.then !== 'function' ? hit : null;
+  return hit instanceof HTMLImageElement && hit.naturalWidth ? hit : null;
 }
 function loadParty(party){
-  if (!party) return Promise.resolve(null);
-  const hit = partyCache.get(party);
-  if (hit && typeof hit.then !== 'function') return Promise.resolve(hit);
-  if (hit) return hit;
-  const pending = new Promise(resolve => {
-    const image = new Image();
-    image.onload = () => { partyCache.set(party, image); resolve(image); };
-    image.onerror = () => { partyCache.set(party, null); resolve(null); };
-    image.src = `partidos/${partySlug(party)}.jpg`;
-  });
-  partyCache.set(party, pending);
-  return pending;
+  return loadCached(partyCache, party, `partidos/${partySlug(party)}.jpg`);
 }
 function cachedParty(party){
   const hit = partyCache.get(party);
-  return hit && typeof hit.then !== 'function' ? hit : null;
+  return hit instanceof HTMLImageElement && hit.naturalWidth ? hit : null;
 }
 function shareRows(options){
   const {slots, byId, slotLabel, choices} = painel();
