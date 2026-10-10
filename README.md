@@ -2,6 +2,10 @@
 
 Abra `index.html` ou `Abrir painel.cmd` com dois cliques. O painel funciona sem instalação e sem internet; os links de fontes precisam de conexão. Mantenha os arquivos desta pasta juntos.
 
+## Site
+
+[https://arrudadfa.github.io/eleicoes-2026/](https://arrudadfa.github.io/eleicoes-2026/)
+
 ## Resultado
 
 A primeira tela mostra o resultado oficial do 1º turno, por estado e cargo, com votos, percentual e situação. A situação é o texto do TSE: eleito, eleito por quociente partidário, eleito por média, suplente, 2º turno ou não eleito. A apuração usada aqui está encerrada; os arquivos foram gerados em 05/10/2026.
@@ -44,12 +48,12 @@ O seletor de estado define deputado federal, deputado estadual (distrital no DF)
 
 ## Fontes
 
-- https://dadosabertos.tse.jus.br/dataset/candidatos-2026
-- https://resultados.tse.jus.br/oficial/ele2026/
-- https://www.tse.jus.br/eleicoes/simulador-de-votacao
-- https://www.tse.jus.br/comunicacao/noticias/2026/Marco/eleicoes-2026-conheca-a-ordem-de-votacao-na-urna-eletronica
-- https://noticias.uol.com.br/eleicoes/2026/09/29/quaest-sp-governo-e-senado.amp.htm
-- https://noticias.uol.com.br/eleicoes/2026/09/28/quaest-pesquisa-presidencial.ghtm
-- https://quaest.com.br/relatorios/
+- [https://dadosabertos.tse.jus.br/dataset/candidatos-2026](https://dadosabertos.tse.jus.br/dataset/candidatos-2026)
+- [https://resultados.tse.jus.br/oficial/ele2026/](https://resultados.tse.jus.br/oficial/ele2026/)
+- [https://www.tse.jus.br/eleicoes/simulador-de-votacao](https://www.tse.jus.br/eleicoes/simulador-de-votacao)
+- [https://www.tse.jus.br/comunicacao/noticias/2026/Marco/eleicoes-2026-conheca-a-ordem-de-votacao-na-urna-eletronica](https://www.tse.jus.br/comunicacao/noticias/2026/Marco/eleicoes-2026-conheca-a-ordem-de-votacao-na-urna-eletronica)
+- [https://noticias.uol.com.br/eleicoes/2026/09/29/quaest-sp-governo-e-senado.amp.htm](https://noticias.uol.com.br/eleicoes/2026/09/29/quaest-sp-governo-e-senado.amp.htm)
+- [https://noticias.uol.com.br/eleicoes/2026/09/28/quaest-pesquisa-presidencial.ghtm](https://noticias.uol.com.br/eleicoes/2026/09/28/quaest-pesquisa-presidencial.ghtm)
+- [https://quaest.com.br/relatorios/](https://quaest.com.br/relatorios/)
 
 Aplicação pessoal, local e independente, sem vínculo com a Justiça Eleitoral. Nenhuma preferência é pré-selecionada. Candidatos são apresentados em ordem alfabética; gráficos mantêm a ordem de publicação da pesquisa.
