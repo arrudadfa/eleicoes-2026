@@ -118575,7 +118575,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002539775",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002539774",
+        "name": "CARLOS MOSCONI",
+        "party": "PSDB",
+        "number": "12"
+      }
     },
     {
       "id": "190002537524",
@@ -118590,7 +118596,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002537524",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "190002537523",
+        "name": "TENENTE CORONEL ERIGREYCE",
+        "party": "NOVO",
+        "number": "30"
+      }
     },
     {
       "id": "70002552586",
@@ -118605,7 +118617,13 @@
       "voteDestination": "Nulo técnico",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002552586",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002552587",
+        "name": "LUIZ PITIMAN",
+        "party": "PSD",
+        "number": "55"
+      }
     },
     {
       "id": "130002544411",
@@ -118620,7 +118638,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002544411",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002544410",
+        "name": "CABO DAVID SOUZA",
+        "party": "MISSÃO",
+        "number": "14"
+      }
     },
     {
       "id": "70002551557",
@@ -118635,7 +118659,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002551557",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002551558",
+        "name": "SOFIA CARVALHO",
+        "party": "PSB",
+        "number": "40"
+      }
     },
     {
       "id": "250002550913",
@@ -118650,7 +118680,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002550913",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "250002550912",
+        "name": "FELIPE QUEIROZ",
+        "party": "PCB",
+        "number": "21"
+      }
     },
     {
       "id": "70002553055",
@@ -118665,7 +118701,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002553055",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002553056",
+        "name": "GUSTAVO ROCHA",
+        "party": "REPUBLICANOS",
+        "number": "11"
+      }
     },
     {
       "id": "210002552592",
@@ -118680,7 +118722,13 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002552592",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "210002552593",
+        "name": "TIAGO NILO",
+        "party": "PCO",
+        "number": "29"
+      }
     },
     {
       "id": "130002552296",
@@ -118695,7 +118743,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002552296",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002552295",
+        "name": "FALCÃO",
+        "party": "REPUBLICANOS",
+        "number": "10"
+      }
     },
     {
       "id": "190002544120",
@@ -118710,7 +118764,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002544120",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "190002544119",
+        "name": "RAFA LUZ",
+        "party": "MISSÃO",
+        "number": "14"
+      }
     },
     {
       "id": "190002540198",
@@ -118725,7 +118785,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002540198",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "190002540199",
+        "name": "PERCILIANA",
+        "party": "PSTU",
+        "number": "16"
+      }
     },
     {
       "id": "190002542887",
@@ -118740,7 +118806,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002542887",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "190002542886",
+        "name": "FERNANDA LOUBACK",
+        "party": "PL",
+        "number": "22"
+      }
     },
     {
       "id": "190002543380",
@@ -118755,7 +118827,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002543380",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "190002543379",
+        "name": "JANE REIS",
+        "party": "MDB",
+        "number": "55"
+      }
     },
     {
       "id": "70002551298",
@@ -118770,7 +118848,13 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002551298",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002551299",
+        "name": "SUBTENENTE SERGIO PRADO",
+        "party": "AGIR",
+        "number": "36"
+      }
     },
     {
       "id": "70002552341",
@@ -118785,7 +118869,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002552341",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002552340",
+        "name": "VALMIR BARBOSA",
+        "party": "PCO",
+        "number": "29"
+      }
     },
     {
       "id": "250002549705",
@@ -118800,7 +118890,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002549705",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "250002549704",
+        "name": "MÁRCIO FRANÇA",
+        "party": "PSB",
+        "number": "13"
+      }
     },
     {
       "id": "130002550834",
@@ -118815,7 +118911,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002550834",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002550835",
+        "name": "ELLEN MIZIARA",
+        "party": "PL",
+        "number": "22"
+      }
     },
     {
       "id": "130002549557",
@@ -118830,7 +118932,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002549557",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002549558",
+        "name": "MARIA HELENA",
+        "party": "MDB",
+        "number": "15"
+      }
     },
     {
       "id": "210002542892",
@@ -118845,7 +118953,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002542892",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "210002542891",
+        "name": "ERNANI POLO",
+        "party": "PSD",
+        "number": "15"
+      }
     },
     {
       "id": "190002550196",
@@ -118860,7 +118974,13 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002550196",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "190002550197",
+        "name": "MAJOR ELAINE",
+        "party": "DEMOCRATA",
+        "number": "10"
+      }
     },
     {
       "id": "130002552308",
@@ -118875,7 +118995,13 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002552308",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002552309",
+        "name": "ESTEVÃO GOMES",
+        "party": "PCO",
+        "number": "29"
+      }
     },
     {
       "id": "130002547874",
@@ -118890,7 +119016,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002547874",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002547875",
+        "name": "RENATO CAMPOS",
+        "party": "UP",
+        "number": "80"
+      }
     },
     {
       "id": "250002553062",
@@ -118905,7 +119037,13 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002553062",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "250002553061",
+        "name": "NIVALDO ORLANDI",
+        "party": "PCO",
+        "number": "29"
+      }
     },
     {
       "id": "210002551508",
@@ -118920,7 +119058,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002551508",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "210002551509",
+        "name": "EDEGAR PRETTO",
+        "party": "PT",
+        "number": "12"
+      }
     },
     {
       "id": "190002547272",
@@ -118935,7 +119079,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002547272",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "190002547273",
+        "name": "BIA MARTINS",
+        "party": "UP",
+        "number": "80"
+      }
     },
     {
       "id": "70002547775",
@@ -118950,7 +119100,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002547775",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002547774",
+        "name": "DELEGADO RAFAEL SAMPAIO",
+        "party": "NOVO",
+        "number": "30"
+      }
     },
     {
       "id": "70002552496",
@@ -118965,7 +119121,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002552496",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002552497",
+        "name": "DORA GOMES",
+        "party": "PV",
+        "number": "13"
+      }
     },
     {
       "id": "190002552513",
@@ -118980,7 +119142,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002552513",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "190002552514",
+        "name": "CAETANO ALBUQUERQUE",
+        "party": "PCO",
+        "number": "29"
+      }
     },
     {
       "id": "210002535802",
@@ -118995,7 +119163,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002535802",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "210002535803",
+        "name": "CLAUDIO DIAZ",
+        "party": "PSDB",
+        "number": "45"
+      }
     },
     {
       "id": "130002541911",
@@ -119010,7 +119184,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002541911",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002541912",
+        "name": "DANILO DE CASTRO",
+        "party": "UNIÃO",
+        "number": "55"
+      }
     },
     {
       "id": "130002550464",
@@ -119025,7 +119205,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002550464",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002550465",
+        "name": "JARBAS SOARES",
+        "party": "PSB",
+        "number": "13"
+      }
     },
     {
       "id": "70002552965",
@@ -119040,7 +119226,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002552965",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002552966",
+        "name": "JUIZ EVERARDO RIBEIRO",
+        "party": "PSDB",
+        "number": "45"
+      }
     },
     {
       "id": "250002548080",
@@ -119055,7 +119247,13 @@
       "voteDestination": "#NULO",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002548080",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "250002548079",
+        "name": "RENATA BOLSONARO",
+        "party": "AGIR",
+        "number": "36"
+      }
     },
     {
       "id": "210002533355",
@@ -119070,7 +119268,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002533355",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "210002533354",
+        "name": "NAF NASCIMENTO",
+        "party": "UP",
+        "number": "80"
+      }
     },
     {
       "id": "70002535930",
@@ -119085,7 +119289,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002535930",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002535931",
+        "name": "GUILLEN",
+        "party": "PSTU",
+        "number": "16"
+      }
     },
     {
       "id": "130002544122",
@@ -119100,7 +119310,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002544122",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002544121",
+        "name": "WARLEN NUNES",
+        "party": "PCB",
+        "number": "21"
+      }
     },
     {
       "id": "70002537111",
@@ -119115,7 +119331,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002537111",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002537110",
+        "name": "THAÍS OLIVEIRA",
+        "party": "UP",
+        "number": "80"
+      }
     },
     {
       "id": "130002546802",
@@ -119130,7 +119352,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002546802",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "130002546803",
+        "name": "PROF. DIANA DE CÁSSIA",
+        "party": "PSTU",
+        "number": "16"
+      }
     },
     {
       "id": "210002541367",
@@ -119145,7 +119373,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002541367",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "210002541368",
+        "name": "ADÃO LIMA",
+        "party": "PSTU",
+        "number": "16"
+      }
     },
     {
       "id": "70002553982",
@@ -119160,7 +119394,13 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002553982",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "70002554083",
+        "name": "CRISTIANE BARROS",
+        "party": "PRTB",
+        "number": "28"
+      }
     },
     {
       "id": "250002541303",
@@ -119175,7 +119415,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002541303",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "250002541302",
+        "name": "FELICIO RAMUTH",
+        "party": "MDB",
+        "number": "10"
+      }
     },
     {
       "id": "250002536915",
@@ -119190,7 +119436,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002536915",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "250002536916",
+        "name": "RENATA FRANÇA",
+        "party": "PSTU",
+        "number": "16"
+      }
     },
     {
       "id": "250002544912",
@@ -119205,7 +119457,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002544912",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "250002552372",
+        "name": "CRIS DAMASIO",
+        "party": "UP",
+        "number": "80"
+      }
     },
     {
       "id": "190002536162",
@@ -119220,7 +119478,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002536162",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "190002536163",
+        "name": "JULIANA CARVALHO",
+        "party": "PSOL",
+        "number": "50"
+      }
     },
     {
       "id": "210002547857",
@@ -119235,7 +119499,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002547857",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "210002547858",
+        "name": "SILVANA COVATTI",
+        "party": "PP",
+        "number": "22"
+      }
     },
     {
       "id": "280002552484",
@@ -119250,7 +119520,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002552484",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002552485",
+        "name": "FABIANA TORQUATO",
+        "party": "DC",
+        "number": "27"
+      }
     },
     {
       "id": "280002551975",
@@ -119265,7 +119541,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002551975",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002551976",
+        "name": "CLEUSA SANTOS",
+        "party": "PCB",
+        "number": "21"
+      }
     },
     {
       "id": "280002551547",
@@ -119280,7 +119562,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002551547",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002551546",
+        "name": "JÚLIO DELGADO",
+        "party": "AVANTE",
+        "number": "70"
+      }
     },
     {
       "id": "280002551544",
@@ -119295,7 +119583,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002551544",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002551543",
+        "name": "ALFREDO GASPAR",
+        "party": "PL",
+        "number": "22"
+      }
     },
     {
       "id": "280002541457",
@@ -119310,7 +119604,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002541457",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002541458",
+        "name": "VANESSA PORTUGAL",
+        "party": "PSTU",
+        "number": "16"
+      }
     },
     {
       "id": "280002554479",
@@ -119325,7 +119625,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002554479",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002553883",
+        "name": "LEONARDO AVALANCHE",
+        "party": "PRTB",
+        "number": "28"
+      }
     },
     {
       "id": "280002542548",
@@ -119340,7 +119646,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002542548",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002542549",
+        "name": "GERALDO ALCKMIN",
+        "party": "PSB",
+        "number": "13"
+      }
     },
     {
       "id": "280002553884",
@@ -119355,7 +119667,13 @@
       "voteDestination": "#NULO",
       "substituted": true,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002553884",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002553883",
+        "name": "LEONARDO AVALANCHE",
+        "party": "PRTB",
+        "number": "28"
+      }
     },
     {
       "id": "280002540694",
@@ -119370,7 +119688,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002540694",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002540693",
+        "name": "CORONEL MEDINA",
+        "party": "MISSÃO",
+        "number": "14"
+      }
     },
     {
       "id": "280002551932",
@@ -119385,7 +119709,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002551932",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002551933",
+        "name": "GILBERTO KASSAB",
+        "party": "PSD",
+        "number": "55"
+      }
     },
     {
       "id": "280002552487",
@@ -119400,7 +119730,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002552487",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002552486",
+        "name": "ANTÔNIO CARLOS",
+        "party": "PCO",
+        "number": "29"
+      }
     },
     {
       "id": "280002538811",
@@ -119415,7 +119751,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002538811",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002538812",
+        "name": "RAQUEL BRÍCIO",
+        "party": "UP",
+        "number": "80"
+      }
     },
     {
       "id": "280002548139",
@@ -119430,7 +119772,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002548139",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002548140",
+        "name": "SUÊD HAIDAR",
+        "party": "DEMOCRATA",
+        "number": "35"
+      }
     },
     {
       "id": "280002539826",
@@ -119445,7 +119793,13 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002539826",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "vice": {
+        "id": "280002539825",
+        "name": "EDUARDO GIRÃO",
+        "party": "NOVO",
+        "number": "30"
+      }
     },
     {
       "id": "130002547884",
@@ -119460,7 +119814,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002547884",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002547886",
+          "name": "KAREN GRACIELLA",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "130002547883",
+          "name": "SANDRO ALBERTO",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "130002547881",
+          "name": "CHRISTINO ALMEIDA",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "130002547885",
+          "name": "ELSON VIOLANTE",
+          "party": "UP",
+          "number": "800"
+        }
+      ]
     },
     {
       "id": "250002541308",
@@ -119475,7 +119855,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002541308",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002541311",
+          "name": "VICENTE SANTINI",
+          "party": "REPUBLICANOS",
+          "number": "111"
+        },
+        {
+          "id": "250002541309",
+          "name": "FERNANDO GODOY",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "250002541313",
+          "name": "RUTE COSTA",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "250002541310",
+          "name": "JULIO SERSON",
+          "party": "PP",
+          "number": "111"
+        }
+      ]
     },
     {
       "id": "190002550192",
@@ -119490,7 +119896,45 @@
       "voteDestination": "#NULO",
       "substituted": true,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002550192",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002550194",
+          "name": "ALBERTO PRÓ VIDA-BETINHO",
+          "party": "DEMOCRATA",
+          "number": "355"
+        },
+        {
+          "id": "190002554291",
+          "name": "ALEXANDRE CARDOSO",
+          "party": "DEMOCRATA",
+          "number": "350"
+        },
+        {
+          "id": "190002550193",
+          "name": "CMT RIBEIRO AFONSO",
+          "party": "DEMOCRATA",
+          "number": "350"
+        },
+        {
+          "id": "190002550195",
+          "name": "JORGE PAGE",
+          "party": "DEMOCRATA",
+          "number": "355"
+        },
+        {
+          "id": "190002554289",
+          "name": "MARLI MARTINS",
+          "party": "DEMOCRATA",
+          "number": "350"
+        },
+        {
+          "id": "190002550191",
+          "name": "ALEXANDRE CARDOSO",
+          "party": "DEMOCRATA",
+          "number": "350"
+        }
+      ]
     },
     {
       "id": "130002552302",
@@ -119505,7 +119949,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002552302",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002552301",
+          "name": "KELVIN FARIA",
+          "party": "MDB",
+          "number": "150"
+        },
+        {
+          "id": "130002552297",
+          "name": "PLACIDINO STÁBILE",
+          "party": "MDB",
+          "number": "155"
+        },
+        {
+          "id": "130002552300",
+          "name": "IVANISE",
+          "party": "MDB",
+          "number": "150"
+        },
+        {
+          "id": "130002552298",
+          "name": "NENA MARCHESE",
+          "party": "MDB",
+          "number": "155"
+        }
+      ]
     },
     {
       "id": "70002553859",
@@ -119520,7 +119990,21 @@
       "voteDestination": "#NULO",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002553859",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002553861",
+          "name": "MARCO AURÉLIO",
+          "party": "DEMOCRATA",
+          "number": "355"
+        },
+        {
+          "id": "70002553860",
+          "name": "SEBASTIÃO GERONIMO",
+          "party": "DEMOCRATA",
+          "number": "355"
+        }
+      ]
     },
     {
       "id": "130002554332",
@@ -119535,7 +120019,57 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002554332",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002553854",
+          "name": "GIOVANE LELIS",
+          "party": "PDT",
+          "number": "123"
+        },
+        {
+          "id": "130002554333",
+          "name": "GUSTAVO GALASSI",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "130002553353",
+          "name": "ZELINHO",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "130002554270",
+          "name": "PROFESSOR DANIEL GOMES",
+          "party": "PDT",
+          "number": "123"
+        },
+        {
+          "id": "130002554243",
+          "name": "BRUNA D ÂNGELA",
+          "party": "PDT",
+          "number": "123"
+        },
+        {
+          "id": "130002553352",
+          "name": "ANTÔNIO DIVINO",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "130002554334",
+          "name": "MARCELO HERINGER",
+          "party": "PDT",
+          "number": "456"
+        },
+        {
+          "id": "130002553855",
+          "name": "ROBSON DUTRA",
+          "party": "PDT",
+          "number": "123"
+        }
+      ]
     },
     {
       "id": "190002548141",
@@ -119550,7 +120084,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002548141",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002548146",
+          "name": "MANOEL SEVERINO",
+          "party": "PT",
+          "number": "131"
+        },
+        {
+          "id": "190002548142",
+          "name": "MIRO TEIXEIRA",
+          "party": "PDT",
+          "number": "555"
+        },
+        {
+          "id": "190002548143",
+          "name": "SAVIO NEVES",
+          "party": "PSDB",
+          "number": "555"
+        },
+        {
+          "id": "190002548144",
+          "name": "KLEBER LUCAS",
+          "party": "PT",
+          "number": "131"
+        }
+      ]
     },
     {
       "id": "70002552934",
@@ -119565,7 +120125,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002552934",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002552938",
+          "name": "SAMUEL KICIS",
+          "party": "PL",
+          "number": "223"
+        },
+        {
+          "id": "70002552933",
+          "name": "DIEGO TORRES",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "70002552935",
+          "name": "CRISTIAN VIANA",
+          "party": "PODE",
+          "number": "222"
+        },
+        {
+          "id": "70002552937",
+          "name": "RENATO FIGUEIREDO",
+          "party": "PL",
+          "number": "223"
+        }
+      ]
     },
     {
       "id": "130002552186",
@@ -119580,7 +120166,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002552186",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002552187",
+          "name": "EDILSON NASCIMENTO",
+          "party": "AVANTE",
+          "number": "700"
+        },
+        {
+          "id": "130002552185",
+          "name": "TIÃO NARA",
+          "party": "AVANTE",
+          "number": "700"
+        }
+      ]
     },
     {
       "id": "190002542888",
@@ -119595,7 +120195,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002542888",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002535143",
+          "name": "SAMUEL MALAFAIA",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "190002542889",
+          "name": "LUCIMAR FERREIRA",
+          "party": "PL",
+          "number": "221"
+        },
+        {
+          "id": "190002535144",
+          "name": "MARCELINHO",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "190002542890",
+          "name": "ZÉ AUGUSTO NALIN",
+          "party": "PL",
+          "number": "221"
+        }
+      ]
     },
     {
       "id": "190002535142",
@@ -119610,7 +120236,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002535142",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002535143",
+          "name": "SAMUEL MALAFAIA",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "190002542889",
+          "name": "LUCIMAR FERREIRA",
+          "party": "PL",
+          "number": "221"
+        },
+        {
+          "id": "190002535144",
+          "name": "MARCELINHO",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "190002542890",
+          "name": "ZÉ AUGUSTO NALIN",
+          "party": "PL",
+          "number": "221"
+        }
+      ]
     },
     {
       "id": "130002545590",
@@ -119625,7 +120277,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002545590",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002545592",
+          "name": "MISAEL VARELLA",
+          "party": "PSD",
+          "number": "555"
+        },
+        {
+          "id": "130002545591",
+          "name": "ILCE ROCHA",
+          "party": "PSD",
+          "number": "555"
+        }
+      ]
     },
     {
       "id": "190002554290",
@@ -119640,7 +120306,45 @@
       "voteDestination": "#NULO",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002554290",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002550194",
+          "name": "ALBERTO PRÓ VIDA-BETINHO",
+          "party": "DEMOCRATA",
+          "number": "355"
+        },
+        {
+          "id": "190002554291",
+          "name": "ALEXANDRE CARDOSO",
+          "party": "DEMOCRATA",
+          "number": "350"
+        },
+        {
+          "id": "190002550193",
+          "name": "CMT RIBEIRO AFONSO",
+          "party": "DEMOCRATA",
+          "number": "350"
+        },
+        {
+          "id": "190002550195",
+          "name": "JORGE PAGE",
+          "party": "DEMOCRATA",
+          "number": "355"
+        },
+        {
+          "id": "190002554289",
+          "name": "MARLI MARTINS",
+          "party": "DEMOCRATA",
+          "number": "350"
+        },
+        {
+          "id": "190002550191",
+          "name": "ALEXANDRE CARDOSO",
+          "party": "DEMOCRATA",
+          "number": "350"
+        }
+      ]
     },
     {
       "id": "210002544698",
@@ -119655,7 +120359,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002544698",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002544701",
+          "name": "AITANA",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "210002544703",
+          "name": "DENIOR MACHADO",
+          "party": "PSTU",
+          "number": "161"
+        },
+        {
+          "id": "210002544700",
+          "name": "MARCELA AZEVEDO",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "210002544702",
+          "name": "ADELAR CANSI",
+          "party": "PSTU",
+          "number": "161"
+        }
+      ]
     },
     {
       "id": "70002551426",
@@ -119670,7 +120400,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002551426",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002551427",
+          "name": "MAURO SOUSA",
+          "party": "PCO",
+          "number": "290"
+        },
+        {
+          "id": "70002551428",
+          "name": "RICARDO MACHADO",
+          "party": "PCO",
+          "number": "290"
+        }
+      ]
     },
     {
       "id": "130002551786",
@@ -119685,7 +120429,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002551786",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002551787",
+          "name": "BRAULIO BRAZ",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "130002551785",
+          "name": "PABLO GONTIJO",
+          "party": "PL",
+          "number": "222"
+        }
+      ]
     },
     {
       "id": "250002541362",
@@ -119700,7 +120458,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002541362",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002541366",
+          "name": "MARIA GUILHERME",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "250002541363",
+          "name": "CLAUDIO DONIZETE",
+          "party": "PSTU",
+          "number": "161"
+        },
+        {
+          "id": "250002541364",
+          "name": "BRUNO TEIXEIRA",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "250002541361",
+          "name": "VERUSKA TENÓRIO",
+          "party": "PSTU",
+          "number": "161"
+        }
+      ]
     },
     {
       "id": "250002552955",
@@ -119715,7 +120499,21 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002552955",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002552954",
+          "name": "CARLOS AUGUSTO",
+          "party": "PCO",
+          "number": "290"
+        },
+        {
+          "id": "250002552956",
+          "name": "ANDRÉ AMADO",
+          "party": "PCO",
+          "number": "290"
+        }
+      ]
     },
     {
       "id": "70002552490",
@@ -119730,7 +120528,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002552490",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002552495",
+          "name": "GIULIA TADINI",
+          "party": "PSOL",
+          "number": "131"
+        },
+        {
+          "id": "70002552494",
+          "name": "RAPHAEL SODRE",
+          "party": "REDE",
+          "number": "123"
+        },
+        {
+          "id": "70002552493",
+          "name": "SAMUEL DOMINGUES",
+          "party": "PT",
+          "number": "131"
+        },
+        {
+          "id": "70002552491",
+          "name": "TETÊ MONTEIRO",
+          "party": "PSOL",
+          "number": "123"
+        }
+      ]
     },
     {
       "id": "130002547882",
@@ -119745,7 +120569,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002547882",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002547886",
+          "name": "KAREN GRACIELLA",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "130002547883",
+          "name": "SANDRO ALBERTO",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "130002547881",
+          "name": "CHRISTINO ALMEIDA",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "130002547885",
+          "name": "ELSON VIOLANTE",
+          "party": "UP",
+          "number": "800"
+        }
+      ]
     },
     {
       "id": "210002543865",
@@ -119760,7 +120610,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002543865",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002543864",
+          "name": "PAULA IORIS",
+          "party": "PSD",
+          "number": "555"
+        },
+        {
+          "id": "210002543868",
+          "name": "CAIROLI",
+          "party": "MDB",
+          "number": "151"
+        },
+        {
+          "id": "210002543866",
+          "name": "ANTONIO HOHLFELDT",
+          "party": "MDB",
+          "number": "151"
+        },
+        {
+          "id": "210002543867",
+          "name": "ANNA BEATRIZ",
+          "party": "PSD",
+          "number": "555"
+        }
+      ]
     },
     {
       "id": "250002544673",
@@ -119775,7 +120651,27 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002544673",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002554098",
+          "name": "LUCIANA FELIX",
+          "party": "PODE",
+          "number": "200"
+        },
+        {
+          "id": "250002544671",
+          "name": "ANA ESTIMA",
+          "party": "PODE",
+          "number": "200"
+        },
+        {
+          "id": "250002544672",
+          "name": "JASON ALBUQUERQUE",
+          "party": "PODE",
+          "number": "200"
+        }
+      ]
     },
     {
       "id": "250002541312",
@@ -119790,7 +120686,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002541312",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002541311",
+          "name": "VICENTE SANTINI",
+          "party": "REPUBLICANOS",
+          "number": "111"
+        },
+        {
+          "id": "250002541309",
+          "name": "FERNANDO GODOY",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "250002541313",
+          "name": "RUTE COSTA",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "250002541310",
+          "name": "JULIO SERSON",
+          "party": "PP",
+          "number": "111"
+        }
+      ]
     },
     {
       "id": "130002553354",
@@ -119805,7 +120727,57 @@
       "voteDestination": "#NULO",
       "substituted": true,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002553354",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002553854",
+          "name": "GIOVANE LELIS",
+          "party": "PDT",
+          "number": "123"
+        },
+        {
+          "id": "130002554333",
+          "name": "GUSTAVO GALASSI",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "130002553353",
+          "name": "ZELINHO",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "130002554270",
+          "name": "PROFESSOR DANIEL GOMES",
+          "party": "PDT",
+          "number": "123"
+        },
+        {
+          "id": "130002554243",
+          "name": "BRUNA D ÂNGELA",
+          "party": "PDT",
+          "number": "123"
+        },
+        {
+          "id": "130002553352",
+          "name": "ANTÔNIO DIVINO",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "130002554334",
+          "name": "MARCELO HERINGER",
+          "party": "PDT",
+          "number": "456"
+        },
+        {
+          "id": "130002553855",
+          "name": "ROBSON DUTRA",
+          "party": "PDT",
+          "number": "123"
+        }
+      ]
     },
     {
       "id": "70002553296",
@@ -119820,7 +120792,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002553296",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002553298",
+          "name": "LUCIANA LOUREIRO",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "70002553297",
+          "name": "PROFESSOR TATÁ",
+          "party": "PSDB",
+          "number": "456"
+        }
+      ]
     },
     {
       "id": "250002553928",
@@ -119835,7 +120821,33 @@
       "voteDestination": "#NULO",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002553928",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002553929",
+          "name": "MEDON",
+          "party": "MISSÃO",
+          "number": "144"
+        },
+        {
+          "id": "250002554136",
+          "name": "MEDON",
+          "party": "MISSÃO",
+          "number": "144"
+        },
+        {
+          "id": "250002553930",
+          "name": "FABIO RODRIGUES",
+          "party": "MISSÃO",
+          "number": "144"
+        },
+        {
+          "id": "250002554143",
+          "name": "FABIO RODRIGUES",
+          "party": "MISSÃO",
+          "number": "144"
+        }
+      ]
     },
     {
       "id": "250002554075",
@@ -119850,7 +120862,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002554075",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002553929",
+          "name": "MEDON",
+          "party": "MISSÃO",
+          "number": "144"
+        },
+        {
+          "id": "250002554136",
+          "name": "MEDON",
+          "party": "MISSÃO",
+          "number": "144"
+        },
+        {
+          "id": "250002553930",
+          "name": "FABIO RODRIGUES",
+          "party": "MISSÃO",
+          "number": "144"
+        },
+        {
+          "id": "250002554143",
+          "name": "FABIO RODRIGUES",
+          "party": "MISSÃO",
+          "number": "144"
+        }
+      ]
     },
     {
       "id": "190002543961",
@@ -119865,7 +120903,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002543961",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002543960",
+          "name": "MOISÉS QUEIROZ",
+          "party": "MISSÃO",
+          "number": "144"
+        },
+        {
+          "id": "190002543962",
+          "name": "RAMON BATISTA",
+          "party": "MISSÃO",
+          "number": "144"
+        }
+      ]
     },
     {
       "id": "130002551929",
@@ -119880,7 +120932,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002551929",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002551926",
+          "name": "ANDREA CARLA",
+          "party": "PSTU",
+          "number": "161"
+        },
+        {
+          "id": "130002551928",
+          "name": "ORALDO PAIVA",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "130002551927",
+          "name": "JOSÉ JOÃO",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "130002551925",
+          "name": "ISRAEL PINHEIRO",
+          "party": "PSTU",
+          "number": "161"
+        }
+      ]
     },
     {
       "id": "130002551265",
@@ -119895,7 +120973,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002551265",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002551264",
+          "name": "RITA DE CÁSSIA ALVES REZENDE D",
+          "party": "DC",
+          "number": "277"
+        },
+        {
+          "id": "130002551266",
+          "name": "NOEL GONÇALVES DE OLIVEIRA",
+          "party": "DC",
+          "number": "277"
+        }
+      ]
     },
     {
       "id": "70002552492",
@@ -119910,7 +121002,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002552492",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002552495",
+          "name": "GIULIA TADINI",
+          "party": "PSOL",
+          "number": "131"
+        },
+        {
+          "id": "70002552494",
+          "name": "RAPHAEL SODRE",
+          "party": "REDE",
+          "number": "123"
+        },
+        {
+          "id": "70002552493",
+          "name": "SAMUEL DOMINGUES",
+          "party": "PT",
+          "number": "131"
+        },
+        {
+          "id": "70002552491",
+          "name": "TETÊ MONTEIRO",
+          "party": "PSOL",
+          "number": "123"
+        }
+      ]
     },
     {
       "id": "210002533435",
@@ -119925,7 +121043,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002533435",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002533438",
+          "name": "ENIO ALVES",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "210002532273",
+          "name": "CLAUDIANE LOPES",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "210002533436",
+          "name": "NANDA DO JAV",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "210002533437",
+          "name": "DÉBORA BERNARDES",
+          "party": "UP",
+          "number": "808"
+        }
+      ]
     },
     {
       "id": "190002552083",
@@ -119940,7 +121084,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002552083",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002552084",
+          "name": "MURILO ROMERO",
+          "party": "PRTB",
+          "number": "280"
+        },
+        {
+          "id": "190002552085",
+          "name": "RICARDO FERNANDES",
+          "party": "PRTB",
+          "number": "280"
+        }
+      ]
     },
     {
       "id": "190002552521",
@@ -119955,7 +121113,21 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002552521",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002552519",
+          "name": "ANTÔNIO DE PAULA",
+          "party": "PCO",
+          "number": "290"
+        },
+        {
+          "id": "190002552520",
+          "name": "GUILHERME DOS SANTOS",
+          "party": "PCO",
+          "number": "290"
+        }
+      ]
     },
     {
       "id": "130002552299",
@@ -119970,7 +121142,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002552299",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002552301",
+          "name": "KELVIN FARIA",
+          "party": "MDB",
+          "number": "150"
+        },
+        {
+          "id": "130002552297",
+          "name": "PLACIDINO STÁBILE",
+          "party": "MDB",
+          "number": "155"
+        },
+        {
+          "id": "130002552300",
+          "name": "IVANISE",
+          "party": "MDB",
+          "number": "150"
+        },
+        {
+          "id": "130002552298",
+          "name": "NENA MARCHESE",
+          "party": "MDB",
+          "number": "155"
+        }
+      ]
     },
     {
       "id": "210002533581",
@@ -119985,7 +121183,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002533581",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002533583",
+          "name": "HENRIQUE FONTANA",
+          "party": "PT",
+          "number": "500"
+        },
+        {
+          "id": "210002533579",
+          "name": "VIEIRA DA CUNHA",
+          "party": "PDT",
+          "number": "131"
+        },
+        {
+          "id": "210002533582",
+          "name": "TAMYRES FILGUEIRA",
+          "party": "PT",
+          "number": "131"
+        },
+        {
+          "id": "210002533580",
+          "name": "LUCAS CAREGNATO",
+          "party": "PT",
+          "number": "500"
+        }
+      ]
     },
     {
       "id": "210002547819",
@@ -120000,7 +121224,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002547819",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002547820",
+          "name": "IRENEU ORTH",
+          "party": "PP",
+          "number": "222"
+        },
+        {
+          "id": "210002547817",
+          "name": "SÉRGIO TURRA",
+          "party": "PP",
+          "number": "300"
+        },
+        {
+          "id": "210002547818",
+          "name": "RICARDO JOBIM",
+          "party": "NOVO",
+          "number": "300"
+        },
+        {
+          "id": "210002547815",
+          "name": "ERNANI MELLO",
+          "party": "PL",
+          "number": "222"
+        }
+      ]
     },
     {
       "id": "130002548381",
@@ -120015,7 +121265,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002548381",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002548382",
+          "name": "PROFESSORA MARLI",
+          "party": "PP",
+          "number": "111"
+        },
+        {
+          "id": "130002548380",
+          "name": "TILELÉO",
+          "party": "PP",
+          "number": "111"
+        }
+      ]
     },
     {
       "id": "190002550184",
@@ -120030,7 +121294,39 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002550184",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002550181",
+          "name": "VAGNER ARRUDA DOS SANTOS",
+          "party": "REPUBLICANOS",
+          "number": "100"
+        },
+        {
+          "id": "190002550183",
+          "name": "ANDRE R.R SOARES",
+          "party": "REPUBLICANOS",
+          "number": "101"
+        },
+        {
+          "id": "190002554227",
+          "name": "TANIA BASTOS",
+          "party": "REPUBLICANOS",
+          "number": "100"
+        },
+        {
+          "id": "190002550186",
+          "name": "FRANCISCO EUGENIO",
+          "party": "REPUBLICANOS",
+          "number": "100"
+        },
+        {
+          "id": "190002550185",
+          "name": "DRA RENATA",
+          "party": "REPUBLICANOS",
+          "number": "101"
+        }
+      ]
     },
     {
       "id": "130002553856",
@@ -120045,7 +121341,57 @@
       "voteDestination": "#NULO",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002553856",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002553854",
+          "name": "GIOVANE LELIS",
+          "party": "PDT",
+          "number": "123"
+        },
+        {
+          "id": "130002554333",
+          "name": "GUSTAVO GALASSI",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "130002553353",
+          "name": "ZELINHO",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "130002554270",
+          "name": "PROFESSOR DANIEL GOMES",
+          "party": "PDT",
+          "number": "123"
+        },
+        {
+          "id": "130002554243",
+          "name": "BRUNA D ÂNGELA",
+          "party": "PDT",
+          "number": "123"
+        },
+        {
+          "id": "130002553352",
+          "name": "ANTÔNIO DIVINO",
+          "party": "PSDB",
+          "number": "456"
+        },
+        {
+          "id": "130002554334",
+          "name": "MARCELO HERINGER",
+          "party": "PDT",
+          "number": "456"
+        },
+        {
+          "id": "130002553855",
+          "name": "ROBSON DUTRA",
+          "party": "PDT",
+          "number": "123"
+        }
+      ]
     },
     {
       "id": "250002544514",
@@ -120060,7 +121406,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002544514",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002544513",
+          "name": "MANOEL PEREIRA",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "250002544518",
+          "name": "RENATO MELO",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "250002544517",
+          "name": "ALLANA MATTOS",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "250002544515",
+          "name": "PENHA DAOLIO",
+          "party": "UP",
+          "number": "808"
+        }
+      ]
     },
     {
       "id": "130002551284",
@@ -120075,7 +121447,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002551284",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002551285",
+          "name": "DIEGO MOREIRA",
+          "party": "NOVO",
+          "number": "300"
+        },
+        {
+          "id": "130002551286",
+          "name": "BRUNO LOPES",
+          "party": "NOVO",
+          "number": "300"
+        }
+      ]
     },
     {
       "id": "190002545553",
@@ -120090,7 +121476,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002545553",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002545554",
+          "name": "EVERALDO PEREIRA",
+          "party": "PODE",
+          "number": "200"
+        },
+        {
+          "id": "190002554489",
+          "name": "ELAINE DINIZ",
+          "party": "PODE",
+          "number": "200"
+        },
+        {
+          "id": "190002554480",
+          "name": "RAFAEL JJ",
+          "party": "PODE",
+          "number": "200"
+        },
+        {
+          "id": "190002545555",
+          "name": "ELAINE DINIZ",
+          "party": "PODE",
+          "number": "200"
+        }
+      ]
     },
     {
       "id": "250002551501",
@@ -120105,7 +121517,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002551501",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002551504",
+          "name": "DJALMA NERY",
+          "party": "PSOL",
+          "number": "180"
+        },
+        {
+          "id": "250002551505",
+          "name": "LAIO MORAIS",
+          "party": "PT",
+          "number": "400"
+        },
+        {
+          "id": "250002551503",
+          "name": "MARCELO BARBIERI",
+          "party": "PDT",
+          "number": "400"
+        },
+        {
+          "id": "250002551506",
+          "name": "ANTONIO NETO",
+          "party": "PDT",
+          "number": "180"
+        }
+      ]
     },
     {
       "id": "70002552582",
@@ -120120,7 +121558,27 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002552582",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002552583",
+          "name": "DIEGO",
+          "party": "AVANTE",
+          "number": "700"
+        },
+        {
+          "id": "70002552584",
+          "name": "REGINALDO",
+          "party": "AVANTE",
+          "number": "700"
+        },
+        {
+          "id": "70002554317",
+          "name": "CORONEL LEITE",
+          "party": "AVANTE",
+          "number": "700"
+        }
+      ]
     },
     {
       "id": "130002550560",
@@ -120135,7 +121593,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002550560",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002550556",
+          "name": "LUCIANA COSTA",
+          "party": "PSB",
+          "number": "131"
+        },
+        {
+          "id": "130002550559",
+          "name": "RAQUELL GUIMARÃES",
+          "party": "REDE",
+          "number": "500"
+        },
+        {
+          "id": "130002550558",
+          "name": "LAÉRCIO CINTRA",
+          "party": "PSB",
+          "number": "131"
+        },
+        {
+          "id": "130002550561",
+          "name": "FELIPE FONSECA",
+          "party": "PSOL",
+          "number": "500"
+        }
+      ]
     },
     {
       "id": "250002544516",
@@ -120150,7 +121634,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002544516",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002544513",
+          "name": "MANOEL PEREIRA",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "250002544518",
+          "name": "RENATO MELO",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "250002544517",
+          "name": "ALLANA MATTOS",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "250002544515",
+          "name": "PENHA DAOLIO",
+          "party": "UP",
+          "number": "808"
+        }
+      ]
     },
     {
       "id": "70002552936",
@@ -120165,7 +121675,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002552936",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002552938",
+          "name": "SAMUEL KICIS",
+          "party": "PL",
+          "number": "223"
+        },
+        {
+          "id": "70002552933",
+          "name": "DIEGO TORRES",
+          "party": "PL",
+          "number": "222"
+        },
+        {
+          "id": "70002552935",
+          "name": "CRISTIAN VIANA",
+          "party": "PODE",
+          "number": "222"
+        },
+        {
+          "id": "70002552937",
+          "name": "RENATO FIGUEIREDO",
+          "party": "PL",
+          "number": "223"
+        }
+      ]
     },
     {
       "id": "190002548589",
@@ -120180,7 +121716,39 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002548589",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002548588",
+          "name": "GABRIELA GONÇALVES",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "190002548586",
+          "name": "ROBERTO VASCONCELLOS",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "190002548587",
+          "name": "ELZA DO MLB",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "190002554510",
+          "name": "MARCOS VILLELA",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "190002548591",
+          "name": "GEORGE THOMPSON",
+          "party": "UP",
+          "number": "808"
+        }
+      ]
     },
     {
       "id": "210002538467",
@@ -120195,7 +121763,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002538467",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002538463",
+          "name": "PAULO COITINHO",
+          "party": "CIDADANIA",
+          "number": "234"
+        },
+        {
+          "id": "210002538462",
+          "name": "JOSI MARTINS",
+          "party": "PSDB",
+          "number": "455"
+        },
+        {
+          "id": "210002538464",
+          "name": "CLEITON NIESCIUR",
+          "party": "CIDADANIA",
+          "number": "234"
+        },
+        {
+          "id": "210002538466",
+          "name": "DULCE LOPES",
+          "party": "PSDB",
+          "number": "455"
+        }
+      ]
     },
     {
       "id": "190002536164",
@@ -120210,7 +121804,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002536164",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002536166",
+          "name": "VANDERLEA AGUIAR",
+          "party": "PSOL",
+          "number": "500"
+        },
+        {
+          "id": "190002536165",
+          "name": "MARIA DOS CAMELÔS",
+          "party": "PSOL",
+          "number": "500"
+        }
+      ]
     },
     {
       "id": "190002539827",
@@ -120225,7 +121833,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002539827",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002539828",
+          "name": "FLORINDA LOMBARDI",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "190002539829",
+          "name": "CARLÃO SILVEIRA",
+          "party": "PSTU",
+          "number": "160"
+        }
+      ]
     },
     {
       "id": "190002548145",
@@ -120240,7 +121862,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002548145",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002548146",
+          "name": "MANOEL SEVERINO",
+          "party": "PT",
+          "number": "131"
+        },
+        {
+          "id": "190002548142",
+          "name": "MIRO TEIXEIRA",
+          "party": "PDT",
+          "number": "555"
+        },
+        {
+          "id": "190002548143",
+          "name": "SAVIO NEVES",
+          "party": "PSDB",
+          "number": "555"
+        },
+        {
+          "id": "190002548144",
+          "name": "KLEBER LUCAS",
+          "party": "PT",
+          "number": "131"
+        }
+      ]
     },
     {
       "id": "250002552153",
@@ -120255,7 +121903,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002552153",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002552151",
+          "name": "OLGA SOARES",
+          "party": "PCB",
+          "number": "211"
+        },
+        {
+          "id": "250002552152",
+          "name": "VINICIUS JARDIM",
+          "party": "PCB",
+          "number": "211"
+        }
+      ]
     },
     {
       "id": "210002533584",
@@ -120270,7 +121932,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002533584",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002533583",
+          "name": "HENRIQUE FONTANA",
+          "party": "PT",
+          "number": "500"
+        },
+        {
+          "id": "210002533579",
+          "name": "VIEIRA DA CUNHA",
+          "party": "PDT",
+          "number": "131"
+        },
+        {
+          "id": "210002533582",
+          "name": "TAMYRES FILGUEIRA",
+          "party": "PT",
+          "number": "131"
+        },
+        {
+          "id": "210002533580",
+          "name": "LUCAS CAREGNATO",
+          "party": "PT",
+          "number": "500"
+        }
+      ]
     },
     {
       "id": "70002537112",
@@ -120285,7 +121973,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002537112",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002537354",
+          "name": "TADEU TONIATTI",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "70002537113",
+          "name": "IVONE MINEIRO",
+          "party": "UP",
+          "number": "800"
+        }
+      ]
     },
     {
       "id": "210002544699",
@@ -120300,7 +122002,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002544699",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002544701",
+          "name": "AITANA",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "210002544703",
+          "name": "DENIOR MACHADO",
+          "party": "PSTU",
+          "number": "161"
+        },
+        {
+          "id": "210002544700",
+          "name": "MARCELA AZEVEDO",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "210002544702",
+          "name": "ADELAR CANSI",
+          "party": "PSTU",
+          "number": "161"
+        }
+      ]
     },
     {
       "id": "210002538465",
@@ -120315,7 +122043,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002538465",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002538463",
+          "name": "PAULO COITINHO",
+          "party": "CIDADANIA",
+          "number": "234"
+        },
+        {
+          "id": "210002538462",
+          "name": "JOSI MARTINS",
+          "party": "PSDB",
+          "number": "455"
+        },
+        {
+          "id": "210002538464",
+          "name": "CLEITON NIESCIUR",
+          "party": "CIDADANIA",
+          "number": "234"
+        },
+        {
+          "id": "210002538466",
+          "name": "DULCE LOPES",
+          "party": "PSDB",
+          "number": "455"
+        }
+      ]
     },
     {
       "id": "210002552599",
@@ -120330,7 +122084,21 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002552599",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002552597",
+          "name": "DOMINGOS ALESSANDRETTI",
+          "party": "PCO",
+          "number": "290"
+        },
+        {
+          "id": "210002552598",
+          "name": "ABRÃO RAFAEL SPRITZER",
+          "party": "PCO",
+          "number": "290"
+        }
+      ]
     },
     {
       "id": "210002543863",
@@ -120345,7 +122113,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002543863",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002543864",
+          "name": "PAULA IORIS",
+          "party": "PSD",
+          "number": "555"
+        },
+        {
+          "id": "210002543868",
+          "name": "CAIROLI",
+          "party": "MDB",
+          "number": "151"
+        },
+        {
+          "id": "210002543866",
+          "name": "ANTONIO HOHLFELDT",
+          "party": "MDB",
+          "number": "151"
+        },
+        {
+          "id": "210002543867",
+          "name": "ANNA BEATRIZ",
+          "party": "PSD",
+          "number": "555"
+        }
+      ]
     },
     {
       "id": "70002553751",
@@ -120360,7 +122154,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002553751",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002553750",
+          "name": "PROFESSORA EUNICE SANTOS",
+          "party": "PSD",
+          "number": "555"
+        },
+        {
+          "id": "70002553749",
+          "name": "DR. ANTONIO",
+          "party": "PSD",
+          "number": "555"
+        }
+      ]
     },
     {
       "id": "250002532794",
@@ -120375,7 +122183,27 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002532794",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002532793",
+          "name": "ALCANTARA MACHADO",
+          "party": "NOVO",
+          "number": "300"
+        },
+        {
+          "id": "250002550682",
+          "name": "FREDERICO D AVILA",
+          "party": "NOVO",
+          "number": "300"
+        },
+        {
+          "id": "250002532792",
+          "name": "FERREIRA",
+          "party": "NOVO",
+          "number": "300"
+        }
+      ]
     },
     {
       "id": "210002547816",
@@ -120390,7 +122218,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002547816",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002547820",
+          "name": "IRENEU ORTH",
+          "party": "PP",
+          "number": "222"
+        },
+        {
+          "id": "210002547817",
+          "name": "SÉRGIO TURRA",
+          "party": "PP",
+          "number": "300"
+        },
+        {
+          "id": "210002547818",
+          "name": "RICARDO JOBIM",
+          "party": "NOVO",
+          "number": "300"
+        },
+        {
+          "id": "210002547815",
+          "name": "ERNANI MELLO",
+          "party": "PL",
+          "number": "222"
+        }
+      ]
     },
     {
       "id": "70002548624",
@@ -120405,7 +122259,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002548624",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002548625",
+          "name": "IBI BATISTA",
+          "party": "NOVO",
+          "number": "300"
+        },
+        {
+          "id": "70002548626",
+          "name": "CORONEL LEONARDO",
+          "party": "NOVO",
+          "number": "300"
+        }
+      ]
     },
     {
       "id": "250002551502",
@@ -120420,7 +122288,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002551502",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002551504",
+          "name": "DJALMA NERY",
+          "party": "PSOL",
+          "number": "180"
+        },
+        {
+          "id": "250002551505",
+          "name": "LAIO MORAIS",
+          "party": "PT",
+          "number": "400"
+        },
+        {
+          "id": "250002551503",
+          "name": "MARCELO BARBIERI",
+          "party": "PDT",
+          "number": "400"
+        },
+        {
+          "id": "250002551506",
+          "name": "ANTONIO NETO",
+          "party": "PDT",
+          "number": "180"
+        }
+      ]
     },
     {
       "id": "250002552369",
@@ -120435,7 +122329,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002552369",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002552371",
+          "name": "DR. FABIO LOPES",
+          "party": "CIDADANIA",
+          "number": "232"
+        },
+        {
+          "id": "250002552370",
+          "name": "SHELL GOMES",
+          "party": "CIDADANIA",
+          "number": "232"
+        }
+      ]
     },
     {
       "id": "210002533434",
@@ -120450,7 +122358,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RS/210002533434",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "210002533438",
+          "name": "ENIO ALVES",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "210002532273",
+          "name": "CLAUDIANE LOPES",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "210002533436",
+          "name": "NANDA DO JAV",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "210002533437",
+          "name": "DÉBORA BERNARDES",
+          "party": "UP",
+          "number": "808"
+        }
+      ]
     },
     {
       "id": "70002551323",
@@ -120465,7 +122399,27 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002551323",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002551324",
+          "name": "SGT THIAGO MELO",
+          "party": "AGIR",
+          "number": "360"
+        },
+        {
+          "id": "70002551325",
+          "name": "1°SGT ALEXANDRE - MEU NUTRI",
+          "party": "AGIR",
+          "number": "360"
+        },
+        {
+          "id": "70002554457",
+          "name": "MARIA DA PAZ DE SANTA MARIA",
+          "party": "AGIR",
+          "number": "360"
+        }
+      ]
     },
     {
       "id": "130002552311",
@@ -120480,7 +122434,21 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002552311",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002552312",
+          "name": "DALILA DE ALMEIDA",
+          "party": "PCO",
+          "number": "290"
+        },
+        {
+          "id": "130002552313",
+          "name": "FERNANDO LIRIO",
+          "party": "PCO",
+          "number": "290"
+        }
+      ]
     },
     {
       "id": "130002551930",
@@ -120495,7 +122463,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002551930",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002551926",
+          "name": "ANDREA CARLA",
+          "party": "PSTU",
+          "number": "161"
+        },
+        {
+          "id": "130002551928",
+          "name": "ORALDO PAIVA",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "130002551927",
+          "name": "JOSÉ JOÃO",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "130002551925",
+          "name": "ISRAEL PINHEIRO",
+          "party": "PSTU",
+          "number": "161"
+        }
+      ]
     },
     {
       "id": "190002548590",
@@ -120510,7 +122504,39 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002548590",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002548588",
+          "name": "GABRIELA GONÇALVES",
+          "party": "UP",
+          "number": "808"
+        },
+        {
+          "id": "190002548586",
+          "name": "ROBERTO VASCONCELLOS",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "190002548587",
+          "name": "ELZA DO MLB",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "190002554510",
+          "name": "MARCOS VILLELA",
+          "party": "UP",
+          "number": "800"
+        },
+        {
+          "id": "190002548591",
+          "name": "GEORGE THOMPSON",
+          "party": "UP",
+          "number": "808"
+        }
+      ]
     },
     {
       "id": "190002550182",
@@ -120525,7 +122551,39 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002550182",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002550181",
+          "name": "VAGNER ARRUDA DOS SANTOS",
+          "party": "REPUBLICANOS",
+          "number": "100"
+        },
+        {
+          "id": "190002550183",
+          "name": "ANDRE R.R SOARES",
+          "party": "REPUBLICANOS",
+          "number": "101"
+        },
+        {
+          "id": "190002554227",
+          "name": "TANIA BASTOS",
+          "party": "REPUBLICANOS",
+          "number": "100"
+        },
+        {
+          "id": "190002550186",
+          "name": "FRANCISCO EUGENIO",
+          "party": "REPUBLICANOS",
+          "number": "100"
+        },
+        {
+          "id": "190002550185",
+          "name": "DRA RENATA",
+          "party": "REPUBLICANOS",
+          "number": "101"
+        }
+      ]
     },
     {
       "id": "250002541365",
@@ -120540,7 +122598,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002541365",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002541366",
+          "name": "MARIA GUILHERME",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "250002541363",
+          "name": "CLAUDIO DONIZETE",
+          "party": "PSTU",
+          "number": "161"
+        },
+        {
+          "id": "250002541364",
+          "name": "BRUNO TEIXEIRA",
+          "party": "PSTU",
+          "number": "160"
+        },
+        {
+          "id": "250002541361",
+          "name": "VERUSKA TENÓRIO",
+          "party": "PSTU",
+          "number": "161"
+        }
+      ]
     },
     {
       "id": "250002553252",
@@ -120555,7 +122639,21 @@
       "voteDestination": "Anulado sub judice",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002553252",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "250002553251",
+          "name": "TONINHO SERAPIÃO TUBARÃO",
+          "party": "AGIR",
+          "number": "360"
+        },
+        {
+          "id": "250002553250",
+          "name": "JOSÉ VAZ",
+          "party": "AGIR",
+          "number": "360"
+        }
+      ]
     },
     {
       "id": "70002536445",
@@ -120570,7 +122668,21 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/DF/70002536445",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "70002536444",
+          "name": "EDSON DA SILVA",
+          "party": "PSTU",
+          "number": "161"
+        },
+        {
+          "id": "70002536446",
+          "name": "RENATO",
+          "party": "PSTU",
+          "number": "161"
+        }
+      ]
     },
     {
       "id": "130002550557",
@@ -120585,7 +122697,33 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/MG/130002550557",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "130002550556",
+          "name": "LUCIANA COSTA",
+          "party": "PSB",
+          "number": "131"
+        },
+        {
+          "id": "130002550559",
+          "name": "RAQUELL GUIMARÃES",
+          "party": "REDE",
+          "number": "500"
+        },
+        {
+          "id": "130002550558",
+          "name": "LAÉRCIO CINTRA",
+          "party": "PSB",
+          "number": "131"
+        },
+        {
+          "id": "130002550561",
+          "name": "FELIPE FONSECA",
+          "party": "PSOL",
+          "number": "500"
+        }
+      ]
     },
     {
       "id": "190002550190",
@@ -120600,7 +122738,45 @@
       "voteDestination": "Válido",
       "substituted": false,
       "source": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/RJ/190002550190",
-      "generated": "01/10/2026 08:31:39"
+      "generated": "01/10/2026 08:31:39",
+      "substitutes": [
+        {
+          "id": "190002550194",
+          "name": "ALBERTO PRÓ VIDA-BETINHO",
+          "party": "DEMOCRATA",
+          "number": "355"
+        },
+        {
+          "id": "190002554291",
+          "name": "ALEXANDRE CARDOSO",
+          "party": "DEMOCRATA",
+          "number": "350"
+        },
+        {
+          "id": "190002550193",
+          "name": "CMT RIBEIRO AFONSO",
+          "party": "DEMOCRATA",
+          "number": "350"
+        },
+        {
+          "id": "190002550195",
+          "name": "JORGE PAGE",
+          "party": "DEMOCRATA",
+          "number": "355"
+        },
+        {
+          "id": "190002554289",
+          "name": "MARLI MARTINS",
+          "party": "DEMOCRATA",
+          "number": "350"
+        },
+        {
+          "id": "190002550191",
+          "name": "ALEXANDRE CARDOSO",
+          "party": "DEMOCRATA",
+          "number": "350"
+        }
+      ]
     }
   ],
   "counts": {

@@ -8,15 +8,33 @@ def rows(archive, name):
         return list(csv.DictReader(io.StringIO(z.read(name).decode('latin1')), delimiter=';'))
 
 OFFICES = ['DEPUTADO FEDERAL', 'DEPUTADO ESTADUAL', 'DEPUTADO DISTRITAL', 'SENADOR', 'GOVERNADOR', 'PRESIDENTE']
+VICE_OFFICES = {'VICE-GOVERNADOR', 'VICE-PRESIDENTE'}
+SUPLENTE_ORDER = {'1\u00ba SUPLENTE': 1, '2\u00ba SUPLENTE': 2}
 UFS = ['SP', 'DF', 'RJ', 'MG', 'RS', 'BR']
+
+def brief(r):
+    return dict(id=r['SQ_CANDIDATO'], name=r['NM_URNA_CANDIDATO'], party=r['SG_PARTIDO'], number=r['NR_CANDIDATO'])
+
 candidates = []
 for uf in UFS:
     extra = {r['SQ_CANDIDATO']: r for r in rows('situacoes-tse.zip', f'consulta_cand_complementar_2026_{uf}.csv')}
+    grouped = collections.defaultdict(list)
     for r in rows('candidatos-tse.zip', f'consulta_cand_2026_{uf}.csv'):
-        if r['NR_TURNO'] != '1' or r['DS_CARGO'] not in OFFICES:
-            continue
-        s = extra.get(r['SQ_CANDIDATO'], {})
-        candidates.append(dict(id=r['SQ_CANDIDATO'], name=r['NM_URNA_CANDIDATO'], fullName=r['NM_CANDIDATO'], number=r['NR_CANDIDATO'], party=r['SG_PARTIDO'], office=r['DS_CARGO'], uf=uf, status=s.get('DS_SITUACAO_JULGAMENTO','Não informado'), inBallot=s.get('ST_CANDIDATO_INSERIDO_URNA')=='SIM', voteDestination=s.get('NM_TIPO_DESTINACAO_VOTOS','Não informado'), substituted=s.get('ST_SUBSTITUIDO')=='S', source=f"https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/{r['CD_ELEICAO']}/{r['SG_UE']}/{r['SQ_CANDIDATO']}", generated=r['DT_GERACAO']+' '+r['HH_GERACAO']))
+        if r['NR_TURNO'] == '1':
+            grouped[r['SQ_COLIGACAO']].append(r)
+    for mates in grouped.values():
+        vices = [brief(m) for m in mates if m['DS_CARGO'] in VICE_OFFICES]
+        substitutes = [brief(m) for m in sorted((m for m in mates if m['DS_CARGO'] in SUPLENTE_ORDER), key=lambda m: SUPLENTE_ORDER[m['DS_CARGO']])]
+        for r in mates:
+            if r['DS_CARGO'] not in OFFICES:
+                continue
+            s = extra.get(r['SQ_CANDIDATO'], {})
+            item = dict(id=r['SQ_CANDIDATO'], name=r['NM_URNA_CANDIDATO'], fullName=r['NM_CANDIDATO'], number=r['NR_CANDIDATO'], party=r['SG_PARTIDO'], office=r['DS_CARGO'], uf=uf, status=s.get('DS_SITUACAO_JULGAMENTO','Não informado'), inBallot=s.get('ST_CANDIDATO_INSERIDO_URNA')=='SIM', voteDestination=s.get('NM_TIPO_DESTINACAO_VOTOS','Não informado'), substituted=s.get('ST_SUBSTITUIDO')=='S', source=f"https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/{r['CD_ELEICAO']}/{r['SG_UE']}/{r['SQ_CANDIDATO']}", generated=r['DT_GERACAO']+' '+r['HH_GERACAO'])
+            if vices:
+                item['vice'] = vices[0]
+            if substitutes:
+                item['substitutes'] = substitutes
+            candidates.append(item)
 candidates.sort(key=lambda c:(c['office'],c['name'],c['id']))
 assert len({c['id'] for c in candidates}) == len(candidates)
 data = dict(consulted='2026-10-01', source='https://dadosabertos.tse.jus.br/dataset/candidatos-2026', candidates=candidates, counts=dict(collections.Counter(c['office'] for c in candidates)), hashes={n:hashlib.sha256((ROOT/n).read_bytes()).hexdigest() for n in ['candidatos-tse.zip','situacoes-tse.zip']})
