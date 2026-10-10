@@ -365,14 +365,13 @@ function formatClock(seconds){
   const whole = Math.max(0, Math.floor(seconds));
   return `${Math.floor(whole / 60)}:${String(whole % 60).padStart(2, '0')}`;
 }
-function timeline(total){
-  const intro = 5;
-  const step = 12;
-  const votesEnd = intro + step * 6;
-  if (votesEnd + 4 < total) return {intro, step, votesEnd, total};
-  const introShort = 3;
-  const stepShort = Math.max(4, (total - introShort - 4) / 6);
-  return {intro: introShort, step: stepShort, votesEnd: introShort + stepShort * 6, total};
+function timeline(){
+  const total = 55;
+  const fade = 3;
+  const intro = 3;
+  const ending = 4;
+  const step = (total - intro - ending) / 6;
+  return {intro, step, votesEnd: intro + step * 6, total, fade};
 }
 function drawKey(ctx, x, y, w, h, label, fill, ink, size){
   traceRound(ctx, x, y, w, h, 16);
@@ -485,33 +484,43 @@ function drawIntro(ctx, place){
   ctx.font = font(600, 30);
   ctx.fillText('Sua colinha na ordem da urna', 540, 470);
 }
+function fadeLevel(time, clock){
+  const start = clock.total - clock.fade;
+  if (time <= start) return 1;
+  return Math.max(0, 1 - (time - start) / clock.fade);
+}
 function drawUrna(ctx, time, clock, options, rows, place){
   if (time >= clock.votesEnd) {
     paintCard(ctx, 1080, 1920, {...options, format:'story'}, rows, place);
-    return;
+  } else {
+    ctx.fillStyle = '#0e1612';
+    ctx.fillRect(0, 0, 1080, 1920);
+    traceRound(ctx, 40, 28, 1000, 1804, 42);
+    ctx.fillStyle = '#1a3330';
+    ctx.fill();
+    traceRound(ctx, 78, 64, 924, 820, 12);
+    ctx.fillStyle = '#f7f6f1';
+    ctx.fill();
+    let confirming = false;
+    if (time < clock.intro) drawIntro(ctx, place);
+    else {
+      const elapsed = time - clock.intro;
+      const index = Math.min(5, Math.floor(elapsed / clock.step));
+      const progress = (elapsed - index * clock.step) / clock.step;
+      confirming = drawVoteScreen(ctx, index, progress, rows);
+    }
+    drawKeypad(ctx, confirming);
+    ctx.fillStyle = '#d5e4dc';
+    ctx.font = font(600, 22);
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText('ENSAIE O SEU VOTO    ·    MEU VOTO', 540, 1776);
   }
-  ctx.fillStyle = '#0e1612';
-  ctx.fillRect(0, 0, 1080, 1920);
-  traceRound(ctx, 40, 28, 1000, 1804, 42);
-  ctx.fillStyle = '#1a3330';
-  ctx.fill();
-  traceRound(ctx, 78, 64, 924, 820, 12);
-  ctx.fillStyle = '#f7f6f1';
-  ctx.fill();
-  let confirming = false;
-  if (time < clock.intro) drawIntro(ctx, place);
-  else {
-    const elapsed = time - clock.intro;
-    const index = Math.min(5, Math.floor(elapsed / clock.step));
-    const progress = (elapsed - index * clock.step) / clock.step;
-    confirming = drawVoteScreen(ctx, index, progress, rows);
+  const level = fadeLevel(time, clock);
+  if (level < 1) {
+    ctx.fillStyle = `rgba(0,0,0,${1 - level})`;
+    ctx.fillRect(0, 0, 1080, 1920);
   }
-  drawKeypad(ctx, confirming);
-  ctx.fillStyle = '#d5e4dc';
-  ctx.font = font(600, 22);
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'alphabetic';
-  ctx.fillText('ENSAIE O SEU VOTO    ·    MEU VOTO', 540, 1776);
 }
 function recordUrna(options, onProgress){
   const rows = shareRows(options);
@@ -529,15 +538,19 @@ function recordUrna(options, onProgress){
     audio.onloadedmetadata = async () => {
       let recorder = null;
       try {
-        const total = audio.duration;
-        if (!Number.isFinite(total) || total < 1) throw new Error('Não foi possível ler a duração do jingle.');
-        const clock = timeline(total);
+        if (!Number.isFinite(audio.duration) || audio.duration < 55) throw new Error('Não foi possível ler o jingle.');
+        audio.playbackRate = 1;
+        const clock = timeline();
         const audioCtx = new AudioContext();
         await audioCtx.resume();
         const source = audioCtx.createMediaElementSource(audio);
+        const gain = audioCtx.createGain();
         const dest = audioCtx.createMediaStreamDestination();
-        source.connect(dest);
-        source.connect(audioCtx.destination);
+        source.connect(gain);
+        gain.connect(dest);
+        gain.connect(audioCtx.destination);
+        const applyGain = now => gain.gain.setValueAtTime(fadeLevel(now, clock), audioCtx.currentTime);
+        applyGain(0);
         const stream = canvas.captureStream(30);
         dest.stream.getAudioTracks().forEach(track => stream.addTrack(track));
         const mime = ['video/webm;codecs=vp8,opus', 'video/webm;codecs=vp9,opus', 'video/webm'].find(type => MediaRecorder.isTypeSupported(type));
@@ -547,11 +560,26 @@ function recordUrna(options, onProgress){
         recorder.ondataavailable = event => { if (event.data && event.data.size) chunks.push(event.data); };
         recorder.onerror = () => fail(new Error('A gravação do vídeo falhou.'));
         let frame = 0;
+        let stopped = false;
+        const finish = () => {
+          if (stopped) return;
+          stopped = true;
+          applyGain(clock.total);
+          drawUrna(ctx, clock.total, clock, options, rows, place);
+          onProgress(clock.total, clock.total);
+          audio.pause();
+          if (recorder.state === 'recording') recorder.stop();
+        };
         const paint = () => {
-          const now = Math.min(audio.currentTime || 0, total);
+          const now = audio.currentTime || 0;
+          applyGain(now);
+          if (now >= clock.total) {
+            finish();
+            return;
+          }
           drawUrna(ctx, now, clock, options, rows, place);
-          onProgress(now, total);
-          if (!audio.ended && !audio.paused) frame = requestAnimationFrame(paint);
+          onProgress(now, clock.total);
+          if (!audio.paused) frame = requestAnimationFrame(paint);
         };
         recorder.onstop = () => {
           cancelAnimationFrame(frame);
@@ -564,6 +592,7 @@ function recordUrna(options, onProgress){
         recorder.start(200);
         try {
           await audio.play();
+          applyGain(audio.currentTime || 0);
         } catch (error) {
           recorder.onstop = () => {
             stream.getTracks().forEach(track => track.stop());
@@ -575,10 +604,6 @@ function recordUrna(options, onProgress){
           return;
         }
         frame = requestAnimationFrame(paint);
-        audio.onended = () => {
-          drawUrna(ctx, total, clock, options, rows, place);
-          if (recorder.state === 'recording') recorder.stop();
-        };
       } catch (error) {
         if (recorder && recorder.state === 'recording') recorder.stop();
         fail(error);
