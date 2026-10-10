@@ -6,8 +6,10 @@
 .map-panel .eyebrow{margin:0 0 6px}
 #brazil-map{width:auto;max-width:100%;max-height:200px;height:auto;display:block;margin:0 auto}
 #brazil-map path{fill:#d5dbe3;stroke:#fff;stroke-width:1.15;stroke-linejoin:round}
-#brazil-map path[role="button"],#brazil-map circle[role="button"]{fill:var(--blue);cursor:pointer}
-#brazil-map path[role="button"]:hover,#brazil-map circle[role="button"]:hover{fill:var(--navy)}
+#brazil-map path[role="button"]{cursor:pointer}
+#brazil-map path[data-runoff="1"]{fill:var(--blue)}
+#brazil-map path[role="button"]:hover:not(.is-selected){fill:#c5ced8}
+#brazil-map path[data-runoff="1"]:hover:not(.is-selected),#brazil-map circle[role="button"]:hover:not(.is-selected){fill:var(--navy)}
 #brazil-map path.is-selected{fill:var(--navy);stroke:var(--yellow);stroke-width:2.8}
 #brazil-map circle{fill:var(--blue);stroke:#fff;stroke-width:2;cursor:pointer}
 #brazil-map circle.is-selected{fill:var(--yellow);stroke:var(--navy)}
