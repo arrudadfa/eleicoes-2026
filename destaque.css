@@ -1,10 +1,10 @@
 .board-kicker{margin:0 0 10px}
 .spotlight{margin:0 0 18px}
-.president-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
-.state-stage{display:grid;grid-template-columns:minmax(0,1fr) minmax(200px,280px) minmax(0,1fr);gap:14px;align-items:stretch}
+.president-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px}
+.state-stage{display:grid;grid-template-columns:minmax(0,.85fr) minmax(148px,190px) minmax(0,.85fr);gap:12px;align-items:start}
 .map-panel{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 28px #122b4b14;padding:14px 14px 12px;min-width:0}
 .map-panel .eyebrow{margin:0 0 6px}
-#brazil-map{width:100%;height:auto;display:block}
+#brazil-map{width:auto;max-width:100%;max-height:200px;height:auto;display:block;margin:0 auto}
 #brazil-map path{fill:#d5dbe3;stroke:#fff;stroke-width:1.15;stroke-linejoin:round}
 #brazil-map path[role="button"],#brazil-map circle[role="button"]{fill:var(--blue);cursor:pointer}
 #brazil-map path[role="button"]:hover,#brazil-map circle[role="button"]:hover{fill:var(--navy)}
@@ -15,24 +15,30 @@
 .map-label{margin:8px 0 0;font-weight:750;color:var(--navy);text-align:center}
 .map-label small{display:block;font-weight:650;color:var(--muted);font-size:12px}
 .governor-slot{min-width:0;display:flex}
-.governor-slot .race-card{flex:1;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:10px;min-height:100%}
+.governor-slot .race-card{flex:1;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:8px;min-height:0;padding:14px;box-shadow:0 6px 16px #122b4b10}
+.governor-slot .race-photo{width:56px;height:56px;font-size:15px}
 .governor-slot .race-score{text-align:left}
-.governor-slot .race-copy strong{font-size:clamp(18px,1.5vw,26px)}
+.governor-slot .race-score b{font-size:22px}
+.governor-slot .race-copy strong{font-size:17px}
 .race-card{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;column-gap:14px;width:100%;text-align:left;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 28px #122b4b14;padding:16px 18px;color:var(--navy)}
-.race-card-lg{min-height:132px;padding:20px 22px}
+.race-card-lg{min-height:300px;padding:28px 28px 24px;border-radius:24px;column-gap:22px;row-gap:6px;box-shadow:0 18px 44px #122b4b29;grid-template-columns:auto minmax(0,1fr);align-items:center}
+.race-card-lg .race-photo{grid-row:1 / span 2}
+.race-card-lg .race-score{grid-column:2;text-align:left;justify-self:start}
 .race-card:hover{border-color:#b7c6da}
 .race-card.is-picked{border-color:#e2b423;box-shadow:0 0 0 3px var(--yellow)}
 .race-photo{position:relative;display:grid;place-items:center;overflow:hidden;border-radius:50%;background:#e7eef6;color:var(--navy);font-weight:750;width:72px;height:72px;font-size:18px;flex:none}
-.race-card-lg .race-photo{width:88px;height:88px;font-size:22px}
+.race-card-lg .race-photo{width:172px;height:172px;font-size:42px}
 .race-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .race-copy{min-width:0}
 .race-copy small{display:block;color:var(--muted);font-size:13px;font-weight:700}
 .race-copy strong{display:block;margin-top:2px;font-family:Outfit,'Segoe UI',sans-serif;font-weight:800;font-size:20px;line-height:1.05;letter-spacing:-.03em}
-.race-card-lg .race-copy strong{font-size:clamp(22px,1.8vw,32px)}
+.race-card-lg .race-copy small{font-size:16px}
+.race-card-lg .race-copy strong{font-size:clamp(36px,2.8vw,54px);line-height:.95}
 .race-copy .badge{margin-top:8px}
 .race-score{text-align:right}
 .race-score b{display:block;font-family:Outfit,'Segoe UI',sans-serif;font-weight:800;font-size:26px;line-height:1;color:var(--blue);letter-spacing:-.03em}
-.race-card-lg .race-score b{font-size:clamp(28px,2.2vw,36px)}
+.race-card-lg .race-score b{font-size:clamp(42px,3.4vw,62px)}
+.race-card-lg .race-score small,.race-card-lg .race-score em{font-size:15px}
 .race-score small,.race-score em{display:block;color:var(--muted);font-style:normal;font-weight:650;font-size:13px}
 .race-score em{margin-top:2px}
 .spotlight .fine{margin:12px 2px 0}
@@ -44,9 +50,22 @@
 }
 @media(max-width:640px){
   .president-row{grid-template-columns:1fr}
-  .race-card-lg{min-height:0}
+  .race-card-lg{min-height:0;padding:20px}
+  .race-card-lg .race-photo{width:116px;height:116px}
+  .race-card-lg .race-copy strong{font-size:32px}
+  .race-card-lg .race-score b{font-size:38px}
   .race-card{grid-template-columns:auto minmax(0,1fr);row-gap:6px}
   .race-score{grid-column:2;text-align:left}
   .governor-slot .race-score{margin-left:0}
 }
 @media print{.spotlight{display:none!important}}
+.turno-switch{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.turno-label{color:var(--muted);font-family:Outfit,"Segoe UI",sans-serif;font-weight:650;font-size:16px}
+.turno-track{display:flex;align-items:center;background:var(--yellow);border-radius:999px;padding:3px}
+.turno-track button{appearance:none;border:0;background:transparent;color:var(--navy);border-radius:999px;padding:7px 16px;min-width:54px;font-family:Outfit,"Segoe UI",sans-serif;font-weight:750;font-size:18px;line-height:1;box-shadow:none}
+.turno-track button:hover{background:transparent;border-color:transparent}
+.turno-track button[aria-pressed="true"]{background:#fff;box-shadow:0 1px 3px #122b4b26}
+.turno-track button:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+.turno-loading{margin:48px 0;color:var(--navy);font-weight:700}
+@media(max-width:1100px){.turno-switch{order:2}.header-actions{order:2}nav{order:4}}
+@media(max-width:760px){.turno-switch{gap:8px}.turno-track button{padding:7px 12px;min-width:46px;font-size:16px}}

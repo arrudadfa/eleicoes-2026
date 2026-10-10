@@ -365,13 +365,13 @@ function formatClock(seconds){
   return `${Math.floor(whole / 60)}:${String(whole % 60).padStart(2, '0')}`;
 }
 function timeline(){
-  const total = 55;
-  const fade = 3;
-  const intro = 3;
-  const ending = 4;
-  const count = painel().slots.length;
-  const step = (total - intro - ending) / count;
-  return {intro, step, votesEnd: intro + step * count, total, fade};
+  const vote = 5;
+  const total = 15;
+  const fade = 0.4;
+  const intro = 0;
+  const count = Math.max(1, painel().slots.length);
+  const step = vote / count;
+  return {intro, step, votesEnd: vote, total, fade};
 }
 function drawKey(ctx, x, y, w, h, label, fill, ink, size){
   traceRound(ctx, x, y, w, h, 16);
@@ -538,7 +538,7 @@ function recordUrna(options, onProgress){
     audio.onloadedmetadata = async () => {
       let recorder = null;
       try {
-        if (!Number.isFinite(audio.duration) || audio.duration < 55) throw new Error('Não foi possível ler o jingle.');
+        if (!Number.isFinite(audio.duration) || audio.duration < 1) throw new Error('Não foi possível ler o jingle.');
         audio.playbackRate = 1;
         const clock = timeline();
         const audioCtx = new AudioContext();
@@ -549,7 +549,7 @@ function recordUrna(options, onProgress){
         source.connect(gain);
         gain.connect(dest);
         gain.connect(audioCtx.destination);
-        const applyGain = now => gain.gain.setValueAtTime(fadeLevel(now, clock), audioCtx.currentTime);
+        const applyGain = now => gain.gain.setValueAtTime(now < clock.votesEnd ? 0 : fadeLevel(now, clock), audioCtx.currentTime);
         applyGain(0);
         const stream = canvas.captureStream(30);
         dest.stream.getAudioTracks().forEach(track => stream.addTrack(track));
@@ -561,6 +561,9 @@ function recordUrna(options, onProgress){
         recorder.onerror = () => fail(new Error('A gravação do vídeo falhou.'));
         let frame = 0;
         let stopped = false;
+        let startedAt = 0;
+        let musicOn = false;
+        const elapsed = () => startedAt ? (performance.now() - startedAt) / 1000 : 0;
         const finish = () => {
           if (stopped) return;
           stopped = true;
@@ -571,7 +574,11 @@ function recordUrna(options, onProgress){
           if (recorder.state === 'recording') recorder.stop();
         };
         const paint = () => {
-          const now = audio.currentTime || 0;
+          const now = elapsed();
+          if (!musicOn && now >= clock.votesEnd) {
+            musicOn = true;
+            audio.play().catch(() => {});
+          }
           applyGain(now);
           if (now >= clock.total) {
             finish();
@@ -579,7 +586,7 @@ function recordUrna(options, onProgress){
           }
           drawUrna(ctx, now, clock, options, rows, place);
           onProgress(now, clock.total);
-          if (!audio.paused) frame = requestAnimationFrame(paint);
+          frame = requestAnimationFrame(paint);
         };
         recorder.onstop = () => {
           cancelAnimationFrame(frame);
@@ -592,7 +599,8 @@ function recordUrna(options, onProgress){
         recorder.start(200);
         try {
           await audio.play();
-          applyGain(audio.currentTime || 0);
+          audio.pause();
+          audio.currentTime = 0;
         } catch (error) {
           recorder.onstop = () => {
             stream.getTracks().forEach(track => track.stop());
@@ -603,6 +611,7 @@ function recordUrna(options, onProgress){
           fail(new Error('O navegador bloqueou o áudio do jingle.'));
           return;
         }
+        startedAt = performance.now();
         frame = requestAnimationFrame(paint);
       } catch (error) {
         if (recorder && recorder.state === 'recording') recorder.stop();
@@ -669,9 +678,17 @@ function openShare(){
   refreshShare();
   preloadPhotos();
 }
-qs('#share-open').onclick = openShare;
-qs('#share-top').onclick = openShare;
-qs('#share-download').onclick = () => downloadCard();
-qs('#share-whatsapp').onclick = () => sendWhatsApp();
-qs('#share-video').onclick = () => generateVideo();
-renderControls();
+function bindPassarCola(){
+  const open = qs('#share-open');
+  const top = qs('#share-top');
+  const download = qs('#share-download');
+  const whats = qs('#share-whatsapp');
+  const video = qs('#share-video');
+  if (open) open.onclick = openShare;
+  if (top) top.onclick = openShare;
+  if (download) download.onclick = () => downloadCard();
+  if (whats) whats.onclick = () => sendWhatsApp();
+  if (video) video.onclick = () => generateVideo();
+  if (qs('#share-colors')) renderControls();
+}
+window.bindPassarCola = bindPassarCola;

@@ -6,9 +6,9 @@ Abra `index.html` ou `Abrir painel.cmd` com dois cliques. O painel funciona sem 
 
 [https://arrudadfa.github.io/eleicoes-2026/](https://arrudadfa.github.io/eleicoes-2026/)
 
-A página inicial é o 2º turno, em 25 de outubro de 2026. A colinha pede governador e presidente. Os estados são Acre, Amazonas, Tocantins, Rio Grande do Norte, Distrito Federal, Espírito Santo e Rio de Janeiro, escolhidos no mapa. A Presidência é entre Flávio Bolsonaro e Lula. As escolhas ficam numa chave separada do navegador. O arquivo oficial consultado em 10/10/2026 às 15:09 já registra Douglas Ruas como eleito no 1º turno do Rio de Janeiro; os dois nomes continuam na lista, com essa situação visível.
+A página inicial reúne os dois turnos. A chave **Turno**, no topo, alterna entre **1º** e **2º** sem mudar de endereço. O 2º turno, em 25 de outubro de 2026, pede governador e presidente. Os estados são Acre, Amazonas, Tocantins, Rio Grande do Norte, Distrito Federal, Espírito Santo e Rio de Janeiro, escolhidos no mapa. A Presidência é entre Flávio Bolsonaro e Lula. Cada turno guarda as próprias escolhas neste navegador. O arquivo oficial consultado em 10/10/2026 às 15:09 já registra Douglas Ruas como eleito no 1º turno do Rio de Janeiro; os dois nomes continuam na lista, com essa situação visível.
 
-O 1º turno, já encerrado, fica em [https://arrudadfa.github.io/eleicoes-2026/1_turno/](https://arrudadfa.github.io/eleicoes-2026/1_turno/) e também no botão “1º turno” do topo. O endereço antigo `/2_turno/` apenas redireciona para a página inicial.
+Os endereços antigos `/1_turno/` e `/2_turno/` apenas abrem a mesma página, já na chave correspondente.
 
 ## Resultado
 
