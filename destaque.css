@@ -95,5 +95,7 @@
 .mig-bar-lula{background:#c5343a}
 #mig-svg svg{display:block;margin:6px 0}
 .intro[hidden],.spotlight[hidden]{display:none!important}
+body.mig-focus .workspace{grid-template-columns:minmax(0,1fr)}
+body.mig-focus aside,body.mig-focus .header-actions{display:none!important}
 @media(max-width:760px){.mig-stats{grid-template-columns:1fr}.mig-rate-grid,.mig-fields{grid-template-columns:1fr 1fr}.mig-stat strong{font-size:24px}}
 @media print{#migracao{display:none!important}}

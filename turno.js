@@ -44,6 +44,7 @@ function ensureTurno1(){
 }
 async function showTurno(turno){
   if (turno !== '1' && turno !== '2') turno = '2';
+  document.body.classList.remove('mig-focus');
   const ticket = ++request;
   paintSwitch(turno);
   const stage = document.querySelector('#stage');
