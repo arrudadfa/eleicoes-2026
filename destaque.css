@@ -71,3 +71,26 @@
 .turno-loading{margin:48px 0;color:var(--navy);font-weight:700}
 @media(max-width:1100px){.turno-switch{order:2}.header-actions{order:2}nav{order:4}}
 @media(max-width:760px){.turno-switch{gap:8px}.turno-track button{padding:7px 12px;min-width:46px;font-size:16px}}
+.mig-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:8px 0 18px}
+.mig-stat{background:#f4f7fb;border-radius:10px;padding:12px 14px}
+.mig-stat strong{display:block;font-family:Outfit,"Segoe UI",sans-serif;font-size:28px;font-weight:800;letter-spacing:-.5px;color:var(--navy);line-height:1.1}
+.mig-stat span{display:block;margin-top:4px;color:var(--muted);font-size:13px;line-height:1.35}
+.mig-legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin:8px 0 4px;color:var(--muted);font-size:13px}
+.mig-swatch{display:inline-block;width:10px;height:10px;margin-right:6px;vertical-align:-1px}
+.mig-scroll{overflow:auto;margin-top:12px}
+.mig-table{width:100%;border-collapse:collapse;font-size:12.5px}
+.mig-table th,.mig-table td{text-align:right;padding:6px 3px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
+.mig-table th:first-child,.mig-table td:first-child{text-align:left;white-space:normal}
+.mig-table th{color:var(--muted);font-size:11px;font-weight:750;white-space:normal}
+.mig-table tr:last-child td{font-weight:750}
+.mig-check{display:flex;align-items:center;gap:8px;margin:8px 0 4px;font-size:14px}
+.mig-check input{width:auto;margin:0}
+.mig-origin{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
+.mig-origin h3{margin:0 0 4px;font-size:16px}
+.mig-origin .fine{margin:0 0 8px}
+.mig-rate-grid,.mig-fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.mig-fields{grid-template-columns:repeat(3,minmax(0,1fr));margin:8px 0}
+.mig-bar-lula{background:#a56b12}
+#mig-svg svg{display:block;margin:6px 0}
+@media(max-width:760px){.mig-stats{grid-template-columns:1fr}.mig-rate-grid,.mig-fields{grid-template-columns:1fr 1fr}.mig-stat strong{font-size:24px}}
+@media print{#migracao{display:none!important}}

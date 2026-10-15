@@ -68,5 +68,6 @@ try{const saved=JSON.parse(localStorage.getItem(STORE)||'null');if(saved&&STATES
 if(!governorOpen())choices[0]=null;
 function bindMap(){const map=$('#brazil-map');if(!map)return;const pick=el=>{const code=el?.dataset?.uf;if(code)setUf(code);};map.addEventListener('click',e=>pick(e.target.closest('[data-uf]')));map.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const hit=e.target.closest('[role="button"]');if(!hit)return;e.preventDefault();pick(hit);});}
 bindMap();updatePlace();renderChoices();setOffice(office);renderSim();
+try{if(window.bootMigracao)window.bootMigracao();}catch(error){console.error(error);}
 window.Painel={get choices(){return viewSlots().map(s=>choices[slots.findIndex(x=>x[0]===s[0])]);},get uf(){return uf;},get slots(){return viewSlots();},byId,slotLabel,stateName,isDistrict(){return false;},notify,setView};
 };

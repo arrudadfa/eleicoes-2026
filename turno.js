@@ -1,7 +1,7 @@
 'use strict';
 const NAV = {
   '1': [['resultado', 'Resultado'], ['explorar', 'Explorar candidatos'], ['consultar-bu', 'Consultar BU'], ['simular', 'Treinar sequência'], ['fontes', 'Fontes e dados']],
-  '2': [['painel', 'Painel'], ['explorar', 'Explorar candidatos'], ['simular', 'Treinar sequência'], ['fontes', 'Fontes e dados']]
+  '2': [['painel', 'Painel'], ['migracao', 'Migração'], ['explorar', 'Explorar candidatos'], ['simular', 'Treinar sequência'], ['fontes', 'Fontes e dados']]
 };
 const TITLES = {'1': 'Meu voto • 1º Turno 2026', '2': 'Meu voto • 2º Turno 2026'};
 let request = 0;
