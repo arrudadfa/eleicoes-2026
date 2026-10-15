@@ -58,7 +58,9 @@ window.bootMigracao = function () {
     ['Ipespe', '6 a 8/10', '1.500', '2,6 p.p.', '49–44, soma 101', 52.7, 47.3, '52,7–47,3, exercício do instituto', 'não informado'],
     ['Quaest', '10 a 13/10', '2.154', '2 p.p.', '46–44', 51.1, 48.9, '51,1–48,9, conversão 46/(46+44)', 'BR-08729/2026']
   ];
-  const CORES = { flavio: '#234f83', lula: '#a56b12', fora: '#8aa0b8', indeciso: '#c5ced8', aberto: '#d4b45a' };
+  const CORES = { flavio: '#234f83', lula: '#c5343a', fora: '#1f9d8a', indeciso: '#e07a2f', aberto: '#6a5acd' };
+  const ORIGEM_COR = { baseF: '#234f83', baseL: '#c5343a', cury: '#1f9d8a', renan: '#e07a2f', caiado: '#6a5acd', demais: '#8a9a32', grupo: '#1aa6a6', micro: '#c46b2f', ausentes: '#7d8ea3' };
+  const FOTO = { flavio: ['fotos/280002551544.jpg', 'Flávio Bolsonaro'], lula: ['fotos/280002542548.jpg', 'Lula'] };
   const DESTINOS = [
     ['flavio', 'Flávio no 2º turno'],
     ['lula', 'Lula no 2º turno'],
@@ -229,20 +231,27 @@ window.bootMigracao = function () {
       return id !== 'baseF' && id !== 'baseL' && id !== 'ausentes';
     });
   }
+  function faceHtml(person) {
+    const [src, alt] = FOTO[person];
+    return `<img src="${src}" alt="${esc(alt)}">`;
+  }
   function sankey(rows) {
-    const width = 980;
-    const leftGutter = 214;
-    const rightGutter = 236;
-    const nodeW = 12;
-    const gap = 14;
+    const width = 860;
+    const leftGutter = 188;
+    const rightGutter = 292;
+    const nodeW = 14;
+    const gap = 16;
+    const faceR = 28;
     const sources = rows.map(row => ({
       id: row.meta[0],
       label: row.meta[1],
       value: DESTINOS.reduce((acc, [key]) => acc + row.parts[key], 0),
       parts: row.parts
     })).filter(row => row.value > 0);
-    const dests = DESTINOS.map(([id, label]) => ({
-      id, label, value: sources.reduce((acc, row) => acc + row.parts[id], 0)
+    const dests = DESTINOS.map(([id]) => ({
+      id,
+      label: { flavio: 'Flávio', lula: 'Lula', fora: 'Fora', indeciso: 'Indeciso', aberto: 'Sem destino' }[id],
+      value: sources.reduce((acc, row) => acc + row.parts[id], 0)
     })).filter(row => row.value > 0);
     const inner = Math.max(300, Math.max(sources.length, dests.length, 1) * 64);
     const place = items => {
@@ -283,11 +292,24 @@ window.bootMigracao = function () {
         ribbons.push({ dest, title: `${source.label} para ${DESTINOS.find(item => item[0] === dest)[1]}: ${fmt(value)} votos`, d: `M ${x0} ${y0a} C ${x0 + curve} ${y0a}, ${x1 - curve} ${y1a}, ${x1} ${y1a} L ${x1} ${y1a + th} C ${x1 - curve} ${y1a + th}, ${x0 + curve} ${y0a + sh}, ${x0} ${y0a + sh} Z` });
       });
     });
-    const text = (node, x, anchor) => node.h < 22 ? '' : `<text x="${x}" y="${node.y + node.h / 2}" text-anchor="${anchor}" dominant-baseline="middle" fill="#172c45" font-size="14"><tspan x="${x}" dy="-0.35em">${esc(node.label)}</tspan><tspan x="${x}" dy="1.25em" fill="#54657a" font-size="12">${esc(mi(node.value))} votos</tspan></text>`;
-    return `<svg viewBox="0 0 ${width} ${inner + 28}" width="100%" role="img" aria-label="Diagrama de Sankey da migração de votos do primeiro para o segundo turno">
-      ${ribbons.map(ribbon => `<path d="${ribbon.d}" fill="${CORES[ribbon.dest]}" fill-opacity="0.72"><title>${esc(ribbon.title)}</title></path>`).join('')}
-      ${left.map(node => `<rect x="${leftGutter}" y="${node.y}" width="${nodeW}" height="${Math.max(node.h, 1)}" fill="#e7eef6" stroke="#dce4ee"></rect>${text(node, leftGutter - 8, 'end')}`).join('')}
-      ${right.map(node => `<rect x="${x1}" y="${node.y}" width="${nodeW}" height="${Math.max(node.h, 1)}" fill="${CORES[node.id]}"></rect>${text(node, x1 + nodeW + 8, 'start')}`).join('')}
+    const text = (node, x, anchor) => node.h < 28 ? '' : `<text x="${x}" y="${node.y + node.h / 2}" text-anchor="${anchor}" dominant-baseline="middle" fill="#172c45" font-size="16"><tspan x="${x}" dy="-0.35em">${esc(node.label)}</tspan><tspan x="${x}" dy="1.25em" fill="#54657a" font-size="13">${esc(mi(node.value))} votos</tspan></text>`;
+    const faces = right.filter(node => FOTO[node.id] && node.h >= faceR).map(node => {
+      const cx = x1 + nodeW + 10 + faceR;
+      const cy = node.y + node.h / 2;
+      const [src, alt] = FOTO[node.id];
+      const clip = `mig-face-${node.id}`;
+      return { clip, cx, cy, src, alt, stroke: CORES[node.id] };
+    });
+    return `<svg viewBox="0 0 ${width} ${inner + 36}" width="100%" role="img" aria-label="Diagrama de Sankey da migração de votos do primeiro para o segundo turno">
+      <defs>${faces.map(face => `<clipPath id="${face.clip}"><circle cx="${face.cx}" cy="${face.cy}" r="${faceR}"></circle></clipPath>`).join('')}</defs>
+      ${ribbons.map(ribbon => `<path d="${ribbon.d}" fill="${CORES[ribbon.dest]}" fill-opacity="0.78"><title>${esc(ribbon.title)}</title></path>`).join('')}
+      ${left.map(node => `<rect x="${leftGutter}" y="${node.y}" width="${nodeW}" height="${Math.max(node.h, 1)}" fill="${ORIGEM_COR[node.id] || '#8d97a8'}"></rect>${text(node, leftGutter - 8, 'end')}`).join('')}
+      ${right.map(node => {
+        const photo = faces.find(face => face.clip === `mig-face-${node.id}`);
+        const textX = photo ? photo.cx + faceR + 12 : x1 + nodeW + 10;
+        return `<rect x="${x1}" y="${node.y}" width="${nodeW}" height="${Math.max(node.h, 1)}" fill="${CORES[node.id]}"></rect>${text(node, textX, 'start')}`;
+      }).join('')}
+      ${faces.map(face => `<circle cx="${face.cx}" cy="${face.cy}" r="${faceR}" fill="#e7eef6"></circle><image href="${face.src}" x="${face.cx - faceR}" y="${face.cy - faceR}" width="${faceR * 2}" height="${faceR * 2}" clip-path="url(#${face.clip})" preserveAspectRatio="xMidYMid slice"><title>${esc(face.alt)}</title></image><circle cx="${face.cx}" cy="${face.cy}" r="${faceR}" fill="none" stroke="${face.stroke}" stroke-width="3"></circle>`).join('')}
     </svg>`;
   }
 
@@ -335,8 +357,8 @@ window.bootMigracao = function () {
       ['completo', 'Eleitorado inteiro']
     ].map(([id, label]) => `<button type="button" data-viewmode="${id}" class="${state.view === id ? 'active' : ''}">${label}</button>`).join('');
     document.querySelector('#mig-stats').innerHTML = `
-      <div class="mig-stat"><strong>${pct1(shareF)}</strong><span>Flávio nos votos alocados</span></div>
-      <div class="mig-stat"><strong>${pct1(shareL)}</strong><span>Lula nos votos alocados</span></div>
+      <div class="mig-stat mig-stat-face">${faceHtml('flavio')}<div><strong>${pct1(shareF)}</strong><span>Flávio nos votos alocados</span></div></div>
+      <div class="mig-stat mig-stat-face">${faceHtml('lula')}<div><strong>${pct1(shareL)}</strong><span>Lula nos votos alocados</span></div></div>
       <div class="mig-stat"><strong>${mi(lead)}</strong><span>${esc(leader)} à frente, em votos</span></div>`;
     document.querySelector('#mig-svg').innerHTML = sankey(drawn);
     document.querySelector('#mig-legend').innerHTML = DESTINOS.filter(([key]) => drawn.some(row => row.parts[key] > 0)).map(([key, label]) => `<span><i class="mig-swatch" style="background:${CORES[key]}"></i>${esc(label)}</span>`).join('');
@@ -371,8 +393,8 @@ window.bootMigracao = function () {
     const gap = Math.abs(shareF - medianF);
     document.querySelector('#mig-computo').textContent = `O centro das cinco leituras é ${pct1(medianF)} para Flávio e ${pct1(medianL)} para Lula. A conta desta tela, com as taxas de agora, dá ${pct1(shareF)} a ${pct1(shareL)}, ${gap.toLocaleString('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 })} ${Math.abs(gap - 1) < 0.05 ? 'ponto' : 'pontos'} distante dessa mediana. Se os ${fmt(VALIDOS)} votos válidos de 4/10 se repetirem, a mediana corresponde a ${fmt(repeatF)} e ${fmt(repeatL)}. No 1º turno a diferença foi de ${fmt(VOTOS.flavio - VOTOS.lula)} votos.`;
     document.querySelector('#mig-median').innerHTML = `
-      <div class="mig-stat"><strong>${pct1(medianF)}</strong><span>Mediana, Flávio nos válidos</span></div>
-      <div class="mig-stat"><strong>${pct1(medianL)}</strong><span>Mediana, Lula nos válidos</span></div>
+      <div class="mig-stat mig-stat-face">${faceHtml('flavio')}<div><strong>${pct1(medianF)}</strong><span>Mediana, Flávio nos válidos</span></div></div>
+      <div class="mig-stat mig-stat-face">${faceHtml('lula')}<div><strong>${pct1(medianL)}</strong><span>Mediana, Lula nos válidos</span></div></div>
       <div class="mig-stat"><strong>${mi(repeatF - repeatL)}</strong><span>Diferença se a urna válida se repetir</span></div>`;
     const headF = num(state.headF);
     const headL = num(state.headL);
