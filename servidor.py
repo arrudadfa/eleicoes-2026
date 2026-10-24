@@ -1,6 +1,9 @@
 """Serve o painel só neste computador e converte o vídeo da urna para MP4."""
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
+from urllib.parse import parse_qs, urlparse
+from urllib.request import Request, urlopen
+import json
 import shutil
 import subprocess
 import tempfile
@@ -12,6 +15,35 @@ LIMIT = 250 * 1024 * 1024
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
+
+    def do_GET(self):
+        if self.path.split('?', 1)[0] == '/api/tse':
+            self.serve_tse_proxy()
+            return
+        super().do_GET()
+
+    def serve_tse_proxy(self):
+        query = parse_qs(urlparse(self.path).query)
+        target = (query.get('url') or [''])[0]
+        if not target.startswith('https://resultados.tse.jus.br/'):
+            self.send_error(400, 'URL não permitida')
+            return
+        try:
+            request = Request(target, headers={'User-Agent': 'meu-voto-apuracao/1.0'})
+            with urlopen(request, timeout=60) as response:
+                body = response.read()
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Cache-Control', 'no-store')
+            self.end_headers()
+            self.wfile.write(body)
+        except Exception as exc:
+            message = json.dumps({'error': str(exc)}).encode('utf-8')
+            self.send_response(502)
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Content-Length', str(len(message)))
+            self.end_headers()
+            self.wfile.write(message)
 
     def do_POST(self):
         if self.path.split('?', 1)[0] != '/api/video':
