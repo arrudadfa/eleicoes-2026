@@ -10,6 +10,29 @@ A página inicial reúne os dois turnos. A chave **Turno**, no topo, alterna ent
 
 Os endereços antigos `/1_turno/` e `/2_turno/` apenas abrem a mesma página, já na chave correspondente.
 
+No **2º turno**, o menu **Apuração ao vivo** acompanha a divulgação oficial do TSE (JSON público em `resultados.tse.jus.br`), com atualização automática a cada 45 segundos, percentual de seções totalizadas, votos válidos por candidato, brancos, nulos e abstenção. Presidente nacional é o padrão; governador usa seletor de UF (com 2º turno em AC, AM, TO, RN, DF e ES).
+
+### Configurar códigos do 2º turno (TSE)
+
+Edite **`apuracao/config.mjs`**:
+
+- `elections.presidente.pathId` e `fileId` — número do pleito/caminho na URL (referência 2022: **545** para presidente; arquivos como `.../545/dados/br/br-c0001-e000545-v.json`).
+- `elections.governador.pathId` e `fileId` — equivalente para governador por UF (cargo `3`; pasta `ac`, `sp`, etc.).
+- No 1º turno de 2026 os códigos usados no repositório foram **6257** (presidente) e **6259** (governador), pleito geral **3220**. Os IDs do 2º turno **não estavam publicados** na API do TSE em 24/10/2026; confira no dia em [resultados.tse.jus.br/oficial/ele2026/](https://resultados.tse.jus.br/oficial/ele2026/) e preencha antes da apuração.
+
+O parser é testado com o fixture `fixtures/ele2022-br-presidente-545-v.json` (arquivo oficial de 2022 obtido via arquivo web). Rode `npm test`.
+
+### CORS e proxy
+
+O TSE **não envia** `Access-Control-Allow-Origin` e responde **403** a pedidos com cabeçalho `Origin` (inclui GitHub Pages e `localhost`). O navegador **não consegue** buscar o JSON diretamente no site estático publicado.
+
+Ordem de tentativa no painel:
+
+1. **`/api/tse?url=...`** — ao usar `python servidor.py` (proxy na mesma origem).
+2. **`proxyFallback`** em `apuracao/config.mjs` (padrão: AllOrigins). Pode ser lento ou instável; troque ou desative se tiver outro proxy.
+
+Para o site no GitHub Pages amanhã: faça **merge** desta funcionalidade, **configure os IDs** do 2º turno assim que o TSE publicar e, se o fallback falhar, rode o painel via `servidor.py` ou aponte `proxyFallback` para um proxy confiável sob seu controle.
+
 ## Resultado
 
 Na página do 1º turno, a primeira tela mostra o resultado oficial, por estado e cargo, com votos, percentual e situação. A situação é o texto do TSE: eleito, eleito por quociente partidário, eleito por média, suplente, 2º turno ou não eleito. A apuração usada aqui está encerrada; os arquivos foram gerados em 05/10/2026.

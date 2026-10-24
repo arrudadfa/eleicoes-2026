@@ -1,0 +1,38 @@
+/**
+ * IDs do pleito no caminho da URL do TSE (pasta numérica após ele2026/).
+ * No 1º turno de 2026: presidente 6257, governador por UF 6259 (pleito geral 3220).
+ * No 2º turno de 2026 os códigos abaixo ainda não estavam publicados em 24/10/2026;
+ * confira em resultados.tse.jus.br no dia da eleição e atualize antes da apuração.
+ */
+export const APURACAO_CONFIG = {
+  cycle: 'ele2026',
+  baseUrl: 'https://resultados.tse.jus.br/oficial',
+  refreshSeconds: 45,
+  /** Urnas fecham às 17:00 em Brasília (2º turno 25/10/2026). */
+  pollCloseIso: '2026-10-25T17:00:00-03:00',
+  /**
+   * O TSE responde 403 a pedidos com cabeçalho Origin (GitHub Pages, localhost).
+   * O painel tenta primeiro /api/tse (servidor.py) e depois proxyFallback.
+   */
+  proxyPath: '/api/tse',
+  proxyFallback: 'https://api.allorigins.win/raw?url=',
+  suffixes: ['u', 'v', 'r'],
+  elections: {
+    presidente: {
+      pathId: null,
+      fileId: null,
+      cargo: 1,
+      folder: 'br',
+      prefix: 'br',
+    },
+    governador: {
+      pathId: null,
+      fileId: null,
+      cargo: 3,
+    },
+  },
+  /** Estados com 2º turno de governador em 25/10/2026. */
+  runoffGovernorUfs: ['AC', 'AM', 'TO', 'RN', 'DF', 'ES'],
+  referenceFirstRound: { presidente: 6257, governador: 6259, pleito: 3220 },
+  reference2022SecondRound: { presidente: 545, cargoPresidente: 1 },
+};
