@@ -1,0 +1,3138 @@
+{
+ "1turno": {
+  "br": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 158745502,
+   "comparecimento": 125275835,
+   "abstencao": 33469244,
+   "validos": 119300788,
+   "brancos": 2300798,
+   "nulos": 3674249,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 56104503
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 53879538
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 3448569
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 2675887
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 2605148
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 326488
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 122911
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 43103
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 40043
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 22693
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 16881
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 15024
+    }
+   ]
+  },
+  "ac": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 613742,
+   "comparecimento": 488330,
+   "abstencao": 125412,
+   "validos": 469066,
+   "brancos": 5579,
+   "nulos": 13685,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 302807
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 134770
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 13523
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 8594
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 7980
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 573
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 314
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 215
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 140
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 71
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 40
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 39
+    }
+   ]
+  },
+  "al": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2442126,
+   "comparecimento": 1938428,
+   "abstencao": 503698,
+   "validos": 1818856,
+   "brancos": 33712,
+   "nulos": 85860,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 995459
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 735718
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 42427
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 26851
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 14198
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1345
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 1168
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 636
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 431
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 267
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 246
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 110
+    }
+   ]
+  },
+  "am": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2798611,
+   "comparecimento": 2234549,
+   "abstencao": 564062,
+   "validos": 2170763,
+   "brancos": 24402,
+   "nulos": 39384,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1046996
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 976764
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 77531
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 35411
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 28310
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1867
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 1781
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 929
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 457
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 291
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 265
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 161
+    }
+   ]
+  },
+  "ap": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 576988,
+   "comparecimento": 476562,
+   "abstencao": 100426,
+   "validos": 464858,
+   "brancos": 4415,
+   "nulos": 7289,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 212503
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 212278
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 19057
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 11342
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 8304
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 508
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 341
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 229
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 132
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 62
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 53
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 49
+    }
+   ]
+  },
+  "ba": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 11312752,
+   "comparecimento": 9053601,
+   "abstencao": 2259151,
+   "validos": 8560291,
+   "brancos": 154936,
+   "nulos": 338374,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 5664771
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 2442585
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 195451
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 122705
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 117518
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 6497
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 4649
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 1791
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 1676
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 1299
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 724
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 625
+    }
+   ]
+  },
+  "ce": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 6996545,
+   "comparecimento": 5910471,
+   "abstencao": 1086074,
+   "validos": 5617814,
+   "brancos": 103295,
+   "nulos": 189362,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 3555263
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1756850
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 140524
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 107587
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 45604
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 4310
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 3352
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 1491
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 1071
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 783
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 498
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 481
+    }
+   ]
+  },
+  "df": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2258320,
+   "comparecimento": 1831396,
+   "abstencao": 426924,
+   "validos": 1772808,
+   "brancos": 25362,
+   "nulos": 33226,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 909616
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 675627
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 85076
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 46714
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 45979
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 4915
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 2297
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 828
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 716
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 382
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 334
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 324
+    }
+   ]
+  },
+  "es": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2991650,
+   "comparecimento": 2352282,
+   "abstencao": 639368,
+   "validos": 2251078,
+   "brancos": 43211,
+   "nulos": 57993,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1233194
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 850028
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 65121
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 53236
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 39097
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 5873
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1973
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 974
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 638
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 388
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 311
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 245
+    }
+   ]
+  },
+  "go": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 5080590,
+   "comparecimento": 3971587,
+   "abstencao": 1109003,
+   "validos": 3827823,
+   "brancos": 45643,
+   "nulos": 98121,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 2051888
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1188880
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 472041
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 54105
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 53849
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 2672
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 2087
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 668
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 559
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 468
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 346
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 260
+    }
+   ]
+  },
+  "ma": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 5183115,
+   "comparecimento": 4160343,
+   "abstencao": 1022772,
+   "validos": 4010439,
+   "brancos": 46315,
+   "nulos": 103589,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 2566301
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1239040
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 84830
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 60387
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 50155
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 4584
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1795
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 1459
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 895
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 475
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 307
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 211
+    }
+   ]
+  },
+  "mg": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 16372372,
+   "comparecimento": 12637274,
+   "abstencao": 3735098,
+   "validos": 11976235,
+   "brancos": 268302,
+   "nulos": 392737,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 5777548
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 5188936
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 409737
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 247209
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 230423
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 98407
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 11026
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 4085
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 3411
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 2300
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 1732
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 1421
+    }
+   ]
+  },
+  "ms": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2024430,
+   "comparecimento": 1541220,
+   "abstencao": 483210,
+   "validos": 1490278,
+   "brancos": 21270,
+   "nulos": 29672,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 873351
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 516855
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 39148
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 31847
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 23291
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 2792
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1291
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 626
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 353
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 332
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 209
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 183
+    }
+   ]
+  },
+  "mt": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2637801,
+   "comparecimento": 2052133,
+   "abstencao": 585668,
+   "validos": 1993288,
+   "brancos": 20756,
+   "nulos": 38089,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1298581
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 581681
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 40019
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 33170
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 33079
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 2424
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 1869
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1584
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 340
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 239
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 172
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 130
+    }
+   ]
+  },
+  "pa": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 6262397,
+   "comparecimento": 5066504,
+   "abstencao": 1195893,
+   "validos": 4863172,
+   "brancos": 54203,
+   "nulos": 149129,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 2427237
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 2163957
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 125172
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 84165
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 51991
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 3824
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 3064
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 1293
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 1045
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 674
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 442
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 308
+    }
+   ]
+  },
+  "pb": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 3248531,
+   "comparecimento": 2683988,
+   "abstencao": 564543,
+   "validos": 2513747,
+   "brancos": 52297,
+   "nulos": 117944,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1541127
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 831377
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 73831
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 42247
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 19511
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 1988
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1593
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 627
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 604
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 347
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 274
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 221
+    }
+   ]
+  },
+  "pe": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 7223450,
+   "comparecimento": 5911062,
+   "abstencao": 1312388,
+   "validos": 5601017,
+   "brancos": 109491,
+   "nulos": 200554,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 3553971
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1738043
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 137960
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 85865
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 73176
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 6060
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 2387
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 1114
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 869
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 705
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 457
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 410
+    }
+   ]
+  },
+  "pi": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2704758,
+   "comparecimento": 2240883,
+   "abstencao": 463875,
+   "validos": 2146394,
+   "brancos": 28329,
+   "nulos": 66160,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1523710
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 517028
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 47692
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 32274
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 21629
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 1357
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1099
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 504
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 443
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 319
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 193
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 146
+    }
+   ]
+  },
+  "pr": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 8613657,
+   "comparecimento": 6841457,
+   "abstencao": 1772200,
+   "validos": 6585243,
+   "brancos": 122499,
+   "nulos": 133715,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 3945345
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 2054597
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 205095
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 177434
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 171294
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 17172
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 6731
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 2445
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 2056
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 1195
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 962
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 917
+    }
+   ]
+  },
+  "rj": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 12857648,
+   "comparecimento": 9859802,
+   "abstencao": 2997846,
+   "validos": 9369700,
+   "brancos": 201979,
+   "nulos": 288123,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 4966844
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 3693021
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 247397
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 211843
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 199844
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 21907
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 14186
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 4082
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 3999
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 2854
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 1930
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 1793
+    }
+   ]
+  },
+  "rn": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2659825,
+   "comparecimento": 2171013,
+   "abstencao": 488812,
+   "validos": 2071898,
+   "brancos": 33172,
+   "nulos": 65943,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1237963
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 720493
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 57367
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 35261
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 16407
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 1525
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1228
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 572
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 405
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 315
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 185
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 177
+    }
+   ]
+  },
+  "ro": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 1265893,
+   "comparecimento": 991080,
+   "abstencao": 274813,
+   "validos": 968059,
+   "brancos": 9846,
+   "nulos": 13175,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 652988
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 250667
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 25280
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 19187
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 16929
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 1318
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 843
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 356
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 174
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 160
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 97
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 60
+    }
+   ]
+  },
+  "rr": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 401521,
+   "comparecimento": 332772,
+   "abstencao": 68749,
+   "validos": 325545,
+   "brancos": 2618,
+   "nulos": 4609,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 231322
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 74420
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 8579
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 6623
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 3639
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 337
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 280
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 168
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 60
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 42
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 41
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 34
+    }
+   ]
+  },
+  "rs": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 8522545,
+   "comparecimento": 6702903,
+   "abstencao": 1819642,
+   "validos": 6423046,
+   "brancos": 148339,
+   "nulos": 131518,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 3573783
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 2294759
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 195296
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 167558
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 158821
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 18988
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 6632
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 2146
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 2066
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 1043
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 1031
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 923
+    }
+   ]
+  },
+  "sc": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 5734651,
+   "comparecimento": 4648159,
+   "abstencao": 1086492,
+   "validos": 4500897,
+   "brancos": 69007,
+   "nulos": 78255,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 3000020
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1127168
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 134273
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 132795
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 79911
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 16718
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 5049
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 1503
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 1429
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 828
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 643
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 560
+    }
+   ]
+  },
+  "se": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 1740135,
+   "comparecimento": 1439082,
+   "abstencao": 301053,
+   "validos": 1364196,
+   "brancos": 24859,
+   "nulos": 50027,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 856019
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 417839
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 38895
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 26651
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 21405
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 1158
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 991
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 457
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 331
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 204
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 138
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 108
+    }
+   ]
+  },
+  "sp": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 34122892,
+   "comparecimento": 26431992,
+   "abstencao": 7690900,
+   "validos": 24882948,
+   "brancos": 632801,
+   "nulos": 916243,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 12922023
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 9505413
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 892368
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 804310
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 579571
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 94635
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 42532
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 15815
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 10563
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 6129
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 5160
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 4429
+    }
+   ]
+  },
+  "to": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 1182023,
+   "comparecimento": 965196,
+   "abstencao": 216827,
+   "validos": 930447,
+   "brancos": 8344,
+   "nulos": 26405,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 469321
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 404009
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 22434
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 20189
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 12983
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 595
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 395
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 171
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 117
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 101
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 67
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 65
+    }
+   ]
+  },
+  "zz": {
+   "atualizado": "05/10/2026 12:51:05",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 916534,
+   "comparecimento": 341766,
+   "abstencao": 574345,
+   "validos": 330882,
+   "brancos": 5816,
+   "nulos": 5068,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 157387
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 143900
+    },
+    {
+     "numero": "70",
+     "nome": "ESCRITOR AUGUSTO CURY",
+     "partido": "AVANTE",
+     "votos": 9734
+    },
+    {
+     "numero": "14",
+     "nome": "RENAN SANTOS",
+     "partido": "MISSÃO",
+     "votos": 8580
+    },
+    {
+     "numero": "55",
+     "nome": "RONALDO CAIADO",
+     "partido": "PSD",
+     "votos": 4708
+    },
+    {
+     "numero": "30",
+     "nome": "ZEMA",
+     "partido": "NOVO",
+     "votos": 3329
+    },
+    {
+     "numero": "80",
+     "nome": "SAMARA",
+     "partido": "UP",
+     "votos": 1053
+    },
+    {
+     "numero": "27",
+     "nome": "CLARIANA BARAO",
+     "partido": "DC",
+     "votos": 825
+    },
+    {
+     "numero": "21",
+     "nome": "EDMILSON COSTA",
+     "partido": "PCB",
+     "votos": 421
+    },
+    {
+     "numero": "16",
+     "nome": "HERTZ DIAS",
+     "partido": "PSTU",
+     "votos": 373
+    },
+    {
+     "numero": "35",
+     "nome": "VETERINÁRIO WILSON GRASSI",
+     "partido": "DEMOCRATA",
+     "votos": 373
+    },
+    {
+     "numero": "29",
+     "nome": "RUI COSTA PIMENTA",
+     "partido": "PCO",
+     "votos": 199
+    }
+   ]
+  }
+ },
+ "2turno": {
+  "br": {
+   "atualizado": "25/10/2026 22:45:18",
+   "secoes_totalizadas_pct": "99,999599397",
+   "eleitorado": 158745502,
+   "comparecimento": 128235666,
+   "abstencao": 30508972,
+   "validos": 124081875,
+   "brancos": 1430493,
+   "nulos": 2723298,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 64255891
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 59825984
+    }
+   ]
+  },
+  "ac": {
+   "atualizado": "25/10/2026 19:18:03",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 613715,
+   "comparecimento": 453654,
+   "abstencao": 160061,
+   "validos": 432228,
+   "brancos": 5016,
+   "nulos": 16410,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 287715
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 144513
+    }
+   ]
+  },
+  "al": {
+   "atualizado": "25/10/2026 21:27:22",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2442081,
+   "comparecimento": 1951632,
+   "abstencao": 490449,
+   "validos": 1896761,
+   "brancos": 16983,
+   "nulos": 37888,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1152621
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 744140
+    }
+   ]
+  },
+  "am": {
+   "atualizado": "25/10/2026 21:08:57",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2798661,
+   "comparecimento": 2192059,
+   "abstencao": 606602,
+   "validos": 2121028,
+   "brancos": 18324,
+   "nulos": 52707,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1145783
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 975245
+    }
+   ]
+  },
+  "ap": {
+   "atualizado": "25/10/2026 21:10:37",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 576910,
+   "comparecimento": 429975,
+   "abstencao": 146935,
+   "validos": 421642,
+   "brancos": 3320,
+   "nulos": 5013,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 222968
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 198674
+    }
+   ]
+  },
+  "ba": {
+   "atualizado": "25/10/2026 21:54:28",
+   "secoes_totalizadas_pct": "99,997181193",
+   "eleitorado": 11312891,
+   "comparecimento": 9421735,
+   "abstencao": 1890817,
+   "validos": 9093717,
+   "brancos": 92718,
+   "nulos": 235300,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 6484995
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 2608722
+    }
+   ]
+  },
+  "ce": {
+   "atualizado": "25/10/2026 21:45:50",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 6996521,
+   "comparecimento": 6024843,
+   "abstencao": 971678,
+   "validos": 5855602,
+   "brancos": 56386,
+   "nulos": 112855,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 4036124
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1819478
+    }
+   ]
+  },
+  "df": {
+   "atualizado": "25/10/2026 21:23:12",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2258995,
+   "comparecimento": 1868280,
+   "abstencao": 390715,
+   "validos": 1804766,
+   "brancos": 22386,
+   "nulos": 41128,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 979542
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 825224
+    }
+   ]
+  },
+  "es": {
+   "atualizado": "25/10/2026 21:31:20",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2991515,
+   "comparecimento": 2409214,
+   "abstencao": 582301,
+   "validos": 2296469,
+   "brancos": 33080,
+   "nulos": 79665,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1294504
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1001965
+    }
+   ]
+  },
+  "go": {
+   "atualizado": "25/10/2026 21:33:20",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 5080385,
+   "comparecimento": 4047280,
+   "abstencao": 1033105,
+   "validos": 3930889,
+   "brancos": 43214,
+   "nulos": 73177,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 2345334
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1585555
+    }
+   ]
+  },
+  "ma": {
+   "atualizado": "25/10/2026 22:45:18",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 5183049,
+   "comparecimento": 4127771,
+   "abstencao": 1055278,
+   "validos": 4038202,
+   "brancos": 30855,
+   "nulos": 58714,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 2808231
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1229971
+    }
+   ]
+  },
+  "mg": {
+   "atualizado": "25/10/2026 22:44:38",
+   "secoes_totalizadas_pct": "99,998079213",
+   "eleitorado": 16372144,
+   "comparecimento": 13044107,
+   "abstencao": 3327935,
+   "validos": 12592789,
+   "brancos": 164141,
+   "nulos": 287177,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 6351021
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 6241768
+    }
+   ]
+  },
+  "ms": {
+   "atualizado": "25/10/2026 20:29:52",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2024437,
+   "comparecimento": 1594460,
+   "abstencao": 429977,
+   "validos": 1556865,
+   "brancos": 14958,
+   "nulos": 22637,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 927892
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 628973
+    }
+   ]
+  },
+  "mt": {
+   "atualizado": "25/10/2026 20:50:37",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2637879,
+   "comparecimento": 2085334,
+   "abstencao": 552545,
+   "validos": 2045266,
+   "brancos": 15431,
+   "nulos": 24637,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1351099
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 694167
+    }
+   ]
+  },
+  "pa": {
+   "atualizado": "25/10/2026 22:24:37",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 6262063,
+   "comparecimento": 4989573,
+   "abstencao": 1272490,
+   "validos": 4890389,
+   "brancos": 36501,
+   "nulos": 62683,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 2690449
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 2199940
+    }
+   ]
+  },
+  "pb": {
+   "atualizado": "25/10/2026 21:59:57",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 3248434,
+   "comparecimento": 2743560,
+   "abstencao": 504874,
+   "validos": 2659269,
+   "brancos": 25943,
+   "nulos": 58348,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1794059
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 865210
+    }
+   ]
+  },
+  "pe": {
+   "atualizado": "25/10/2026 21:58:03",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 7223227,
+   "comparecimento": 6126467,
+   "abstencao": 1096760,
+   "validos": 5950067,
+   "brancos": 56758,
+   "nulos": 119642,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 4117513
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 1832554
+    }
+   ]
+  },
+  "pi": {
+   "atualizado": "25/10/2026 21:25:00",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2704695,
+   "comparecimento": 2239830,
+   "abstencao": 464865,
+   "validos": 2179848,
+   "brancos": 16137,
+   "nulos": 43845,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1653989
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 525859
+    }
+   ]
+  },
+  "pr": {
+   "atualizado": "25/10/2026 21:21:20",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 8613628,
+   "comparecimento": 7059339,
+   "abstencao": 1554289,
+   "validos": 6857948,
+   "brancos": 82572,
+   "nulos": 118819,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 4291444
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 2566504
+    }
+   ]
+  },
+  "rj": {
+   "atualizado": "25/10/2026 22:18:59",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 12857526,
+   "comparecimento": 10077449,
+   "abstencao": 2780077,
+   "validos": 9734426,
+   "brancos": 111682,
+   "nulos": 231341,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 5169033
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 4565393
+    }
+   ]
+  },
+  "rn": {
+   "atualizado": "25/10/2026 21:19:43",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 2659867,
+   "comparecimento": 2232823,
+   "abstencao": 427044,
+   "validos": 2151005,
+   "brancos": 19939,
+   "nulos": 61879,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1413596
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 737409
+    }
+   ]
+  },
+  "ro": {
+   "atualizado": "25/10/2026 20:09:56",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 1265926,
+   "comparecimento": 988489,
+   "abstencao": 277437,
+   "validos": 968828,
+   "brancos": 8361,
+   "nulos": 11300,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 674382
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 294446
+    }
+   ]
+  },
+  "rr": {
+   "atualizado": "25/10/2026 20:12:18",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 401540,
+   "comparecimento": 308597,
+   "abstencao": 92943,
+   "validos": 303180,
+   "brancos": 2176,
+   "nulos": 3241,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 219675
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 83505
+    }
+   ]
+  },
+  "rs": {
+   "atualizado": "25/10/2026 21:32:27",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 8522318,
+   "comparecimento": 6889638,
+   "abstencao": 1632680,
+   "validos": 6698930,
+   "brancos": 89463,
+   "nulos": 101245,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 3874378
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 2824552
+    }
+   ]
+  },
+  "sc": {
+   "atualizado": "25/10/2026 21:07:51",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 5734687,
+   "comparecimento": 4762303,
+   "abstencao": 972384,
+   "validos": 4638385,
+   "brancos": 48674,
+   "nulos": 75244,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 3220071
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 1418314
+    }
+   ]
+  },
+  "se": {
+   "atualizado": "25/10/2026 21:32:35",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 1740093,
+   "comparecimento": 1466659,
+   "abstencao": 273434,
+   "validos": 1422395,
+   "brancos": 13135,
+   "nulos": 31129,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 989041
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 433354
+    }
+   ]
+  },
+  "sp": {
+   "atualizado": "25/10/2026 21:48:00",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 34123591,
+   "comparecimento": 27364389,
+   "abstencao": 6759202,
+   "validos": 26258452,
+   "brancos": 389606,
+   "nulos": 716331,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 14139178
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 12119274
+    }
+   ]
+  },
+  "to": {
+   "atualizado": "25/10/2026 21:30:35",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 1182041,
+   "comparecimento": 954763,
+   "abstencao": 227278,
+   "validos": 910878,
+   "brancos": 8059,
+   "nulos": 35826,
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 467916
+    },
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 442962
+    }
+   ]
+  },
+  "zz": {
+   "atualizado": "25/10/2026 21:55:36",
+   "secoes_totalizadas_pct": "100",
+   "eleitorado": 916683,
+   "comparecimento": 381443,
+   "abstencao": 534817,
+   "validos": 371651,
+   "brancos": 4675,
+   "nulos": 5117,
+   "candidatos": [
+    {
+     "numero": "13",
+     "nome": "LULA",
+     "partido": "PT",
+     "votos": 200154
+    },
+    {
+     "numero": "22",
+     "nome": "FLAVIO BOLSONARO",
+     "partido": "PL",
+     "votos": 171497
+    }
+   ]
+  }
+ }
+}
