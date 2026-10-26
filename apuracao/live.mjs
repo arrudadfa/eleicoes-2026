@@ -8,7 +8,7 @@ let timer = null;
 let countdownTimer = null;
 let secondsLeft = APURACAO_CONFIG.refreshSeconds;
 let active = false;
-let role = 'presidente';
+const role = 'governador';
 let ufGov = 'AC';
 let lastError = '';
 let deps = {};
@@ -38,10 +38,10 @@ function renderStatus(data, urls) {
 
   if (!pill || !meta) return;
 
-  const missingIds = !APURACAO_CONFIG.elections.presidente.pathId;
+  const missingIds = !APURACAO_CONFIG.elections.governador.pathId;
   if (missingIds) {
     pill.textContent = 'Configurar IDs';
-    meta.innerHTML = '<p class="metadata">Os códigos do 2º turno ainda não estão em <code>apuracao/config.mjs</code>. Atualize <code>pathId</code> e <code>fileId</code> de presidente e governador quando o TSE publicar (referência 2022: pleito <strong>545</strong>).</p>';
+    meta.innerHTML = '<p class="metadata">Os códigos do 2º turno de governador ainda não estão em <code>apuracao/config.mjs</code>. Atualize <code>pathId</code> e <code>fileId</code> de governador quando o TSE publicar.</p>';
     if (wait) wait.hidden = false;
     if (body) body.hidden = true;
     if (err) err.hidden = true;
@@ -142,23 +142,6 @@ function tickCountdown() {
 }
 
 function bindControls() {
-  const tabs = $('#apuracao-role-tabs');
-  if (tabs && !tabs.dataset.bound) {
-    tabs.dataset.bound = '1';
-    tabs.addEventListener('click', (event) => {
-      const btn = event.target.closest('[data-ap-role]');
-      if (!btn) return;
-      role = btn.dataset.apRole;
-      tabs.querySelectorAll('button').forEach((b) => {
-        b.classList.toggle('active', b === btn);
-        b.setAttribute('aria-pressed', String(b === btn));
-      });
-      const ufWrap = $('#apuracao-uf-wrap');
-      if (ufWrap) ufWrap.hidden = role !== 'governador';
-      loadOnce().catch(() => {});
-    });
-  }
-
   const ufSel = $('#apuracao-uf');
   if (ufSel && !ufSel.dataset.bound) {
     ufSel.dataset.bound = '1';
